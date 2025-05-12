@@ -1,0 +1,996 @@
+Question,Answer
+What is AWS Cloud?,"• AWS Cloud is a cloud computing platform that provides a wide range of services, including compute, storage, databases, security, networking, analytics, machine learning, and DevOps etc... • AWS Cloud is a highly scalable and reliable platform that can be used to build and deploy applications of all sizes and complexity. • AWS Cloud is also a cost-effective platform, as you only pay for the resources that you use."
+DOES IT SOLVE?,"MATRIX FROM HELL INCREASES THE COMPLEXITY CONTAINERS REDUCES THE COMPLEXITY IN SUMMARY A CONTAINER IS, • Just an isolated process running on the host machine. And a restricted process. • Will share OS and, where appropriate, bins/ libraries and limited to what resources it can access. • It exits when the process stops. “Containers are the next once-in-a-decade shift in IT infrastructure and process”"
+WHAT IS DOCKER?,"• So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear things out. • Docker as a “Company” • Docker as a “Product” • Docker as a “Platform” • Docker as a “CLI tool” • Docker as a “Computer Program”"
+ARE THERE SOLUTIONS OTHER THAN DOCKER?,• Docker – Container runtime + Tool for managing containers and images • Containerd – Container runtime only • Podman – Tool for managing containers and images DEEP DIVE INTO DOCKER INTERNALS DOCKER ARCHITECTURE
+Do we understand how/why it makes predictions?,Training Time Important for real-time or big data Fairness
+Does it treat all groups equally?,Generalization
+Does it perform well on new data?,Explainability
+How can we run containers at scale?,"Container orchestration • Container orchestration automates the deployment, management, scaling, and networking of containers. • Container orchestration can be used in any environment where you use containers. It can help you to deploy the same application across different environments without needing to redesign it."
+What is Agentic AI?,"Agentic AI: Models that plan, reason, act, and adapt across steps — not just single reply generation. LLM becomes part of a feedback loop rather than a one-shot answer engine. Crucial for complex tasks like research assistants or autonomous bots. Lecture 02 - Part 2 (Upgraded) LLM Development Toolkit April 21, 2025 16 / 23"
+Questions?,"Lecture 02 - Part 2 (Upgraded) LLM Development Toolkit April 21, 2025 23 / 23"
+What is meant by 'Introduction to AWS cloud platform and its benefits' in context of Agenda?,Introduction to AWS cloud platform and its benefits
+What is meant by 'AWS Global Infrastructure' in context of Agenda?,AWS Global Infrastructure
+What is meant by 'Accessing AWS Services' in context of Agenda?,Accessing AWS Services
+What is meant by 'Interacting with AWS Services' in context of Agenda?,Interacting with AWS Services
+What is meant by 'Best Practices for managing AWS Accounts' in context of Agenda?,Best Practices for managing AWS Accounts
+What is meant by 'Common AWS services' in context of Agenda?,Common AWS services
+What is meant by 'AWS Cloud is a cloud computing ' in context of What is AWS Cloud??,AWS Cloud is a cloud computing
+What is meant by 'AWS Cloud is a highly scalable and ' in context of What is AWS Cloud??,AWS Cloud is a highly scalable and
+What is meant by 'AWS Cloud is also a cost-effective ' in context of What is AWS Cloud??,AWS Cloud is also a cost-effective
+What is meant by 'Scalability - Easily add/ remove resources as required' in context of Benefits of using AWS Cloud??,Scalability - Easily add/ remove resources as required
+What is meant by 'Reliability - Backed by reliable AWS network with proven track ' in context of Benefits of using AWS Cloud??,Reliability - Backed by reliable AWS network with proven track
+What is meant by 'Cost-effectiveness - Pay only for what you use' in context of Benefits of using AWS Cloud??,Cost-effectiveness - Pay only for what you use
+What is meant by 'Security - Wide range of security features and services to protect ' in context of Benefits of using AWS Cloud??,Security - Wide range of security features and services to protect
+What is meant by 'Innovation - 200+ fully featured services for a wide range of ' in context of Benefits of using AWS Cloud??,Innovation - 200+ fully featured services for a wide range of
+What is meant by 'AWS Global infrastructure consists of a network of data centers located ' in context of AWS Global Infrastructure?,AWS Global infrastructure consists of a network of data centers located
+What is Availability Zones.?,• A Region is a geographical area that contains multiple Availability Zones.
+What is meant by 'AWS Edge Locations are locations around the world where AWS content is ' in context of An Availability Zone is a logically isolated section of a Region.?,AWS Edge Locations are locations around the world where AWS content is
+What is meant by 'Regional Edge Caches are caches of frequently accessed AWS content that ' in context of An Availability Zone is a logically isolated section of a Region.?,Regional Edge Caches are caches of frequently accessed AWS content that
+What is meant by 'AWS IAM (Identity and Access Management) - service that allows you to ' in context of Accessing AWS Services?,AWS IAM (Identity and Access Management) - service that allows you to
+"What is meant by 'IAM allows you to create Users and Groups, and assign them ' in context of Accessing AWS Services?","IAM allows you to create Users and Groups, and assign them"
+"What is meant by 'IAM Roles - Very similar to a user, in that it is an identity with permission ' in context of Accessing AWS Services?","IAM Roles - Very similar to a user, in that it is an identity with permission"
+What is meant by 'IAM Policies - Documents that specify the permissions that are granted ' in context of Accessing AWS Services?,IAM Policies - Documents that specify the permissions that are granted
+What is meant by 'AWS Management Console' in context of Interacting with AWS Services?,AWS Management Console
+What is meant by 'AWS Command Line Interface' in context of Interacting with AWS Services?,AWS Command Line Interface
+What is meant by 'Software Development Kits' in context of Interacting with AWS Services?,Software Development Kits
+"What is meant by 'Use strong passwords, enable password policy and enable multi-' in context of Best Practices for managing AWS Accounts?","Use strong passwords, enable password policy and enable multi-"
+"What is meant by 'Use security groups, Network Access Controls and VPCs to protect ' in context of AWS resources.?","Use security groups, Network Access Controls and VPCs to protect"
+What is meant by 'Implement monitoring and logging to track your AWS usage and ' in context of AWS resources.?,Implement monitoring and logging to track your AWS usage and
+What is meant by 'Compute' in context of Common AWS Services?,Compute
+What is meant by 'Amazon Elastic Compute Cloud (EC2)' in context of Common AWS Services?,Amazon Elastic Compute Cloud (EC2)
+What is meant by 'Amazon Elastic Container Service (ECS)' in context of Common AWS Services?,Amazon Elastic Container Service (ECS)
+What is meant by 'AWS Lambda' in context of Common AWS Services?,AWS Lambda
+What is meant by 'Storage' in context of Common AWS Services?,Storage
+What is meant by 'Amazon Simple Storage Service (S3)' in context of Common AWS Services?,Amazon Simple Storage Service (S3)
+What is meant by 'Amazon Elastic Block Store (EBS)' in context of Common AWS Services?,Amazon Elastic Block Store (EBS)
+What is meant by 'Amazon Elastic File System (EFS)' in context of Common AWS Services?,Amazon Elastic File System (EFS)
+What is meant by 'Databases' in context of Common AWS Services?,Databases
+What is meant by 'Amazon Relational Database Service (RDS)' in context of Common AWS Services?,Amazon Relational Database Service (RDS)
+What is meant by 'Amazon DynamoDB' in context of Common AWS Services?,Amazon DynamoDB
+What is meant by 'Amazon Aurora' in context of Common AWS Services?,Amazon Aurora
+What is meant by 'Networking and Content Delivery' in context of Common AWS Services?,Networking and Content Delivery
+What is meant by 'Amazon Virtual Private Cloud (VPC)' in context of Common AWS Services?,Amazon Virtual Private Cloud (VPC)
+What is meant by 'Amazon Route 53' in context of Common AWS Services?,Amazon Route 53
+What is meant by 'Amazon CloudFront' in context of Common AWS Services?,Amazon CloudFront
+What is meant by 'Analytics ' in context of Common AWS Services?,Analytics
+What is meant by 'Amazon Redshift' in context of Common AWS Services?,Amazon Redshift
+What is meant by 'Amazon Athena' in context of Common AWS Services?,Amazon Athena
+What is meant by 'Amazon Kinesis' in context of Common AWS Services?,Amazon Kinesis
+What is meant by 'Machine Learning' in context of Common AWS Services?,Machine Learning
+What is meant by 'Amazon SageMaker' in context of Common AWS Services?,Amazon SageMaker
+What is meant by 'Amazon Rekognition' in context of Common AWS Services?,Amazon Rekognition
+What is meant by 'Amazon Comprehend' in context of Common AWS Services?,Amazon Comprehend
+What is meant by 'Amazon BedRock' in context of Common AWS Services?,Amazon BedRock
+What is meant by 'DevOps' in context of Common AWS Services?,DevOps
+What is meant by 'AWS CodePipeline' in context of Common AWS Services?,AWS CodePipeline
+What is meant by 'AWS CodeDeploy' in context of Common AWS Services?,AWS CodeDeploy
+What is meant by 'Management & Governance' in context of Common AWS Services?,Management & Governance
+What is meant by 'AWS CloudFormation' in context of Common AWS Services?,AWS CloudFormation
+What is meant by 'Amazon CloudWatch' in context of Common AWS Services?,Amazon CloudWatch
+What is meant by 'Amazon CloudTrail' in context of Common AWS Services?,Amazon CloudTrail
+What is meant by 'Application Integration' in context of Common AWS Services?,Application Integration
+What is meant by 'Amazon SNS' in context of Common AWS Services?,Amazon SNS
+What is meant by 'Amazon SQS' in context of Common AWS Services?,Amazon SQS
+What is meant by 'Amazon EventBridge' in context of Common AWS Services?,Amazon EventBridge
+What is meant by 'AWS Step Functions' in context of Common AWS Services?,AWS Step Functions
+What is meant by 'A fundamental theorem in distributed systems.' in context of CAP THEOREM?,A fundamental theorem in distributed systems.
+What is meant by 'Can have at most two of the following three' in context of CAP THEOREM?,Can have at most two of the following three
+What is DISTRIBUTED SYSTEM?,"฀ Consider a simple distributed system with two servers,G1 and  G2 ฀ The servers can communicate with each other and connect to remote  clients https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/"
+"What is For this to happen, whenever data is written to one node, it must be instantly?",forwarded or replicated to all the other nodes in the system before the write is  deemed ‘successful.’
+What is Inconsistent system?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+What is Consistent system?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+What is Another way to state this—all working nodes in the distributed system return a?,"valid response for any request, without exception."
+What is A partition is a communications break within a distributed system—a lost or?,temporarily delayed connection between two nodes.
+What is Partition tolerance means that the cluster must continue to work despite any?,number of communication breakdowns between nodes in the system.
+What is Messages may be delayed or lost forever?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+"What is Consider partitioned system,?",https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+What is Client writes to G1?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+What is Client reads from G2?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+What is meant by 'Consistency &Availability is not“binary” decision' in context of CONSISTENCY OR AVAILABILITY?,Consistency &Availability is not“binary” decision
+What is meant by 'AP systems relax consistency in favor of availability – but' in context of CONSISTENCY OR AVAILABILITY?,AP systems relax consistency in favor of availability – but
+What is meant by 'CP systems sacrifice availability for consistency- but are' in context of CONSISTENCY OR AVAILABILITY?,CP systems sacrifice availability for consistency- but are
+What is meant by 'This suggests both AP & CP systems can offer a degree' in context of CONSISTENCY OR AVAILABILITY?,This suggests both AP & CP systems can offer a degree
+"What is It is guaranteed that if no new updates are made to object,eventually?","all accesses will return the last updated value (e.g.,propagate updates to replicas in a lazy fashion)"
+What is meant by 'Bob finds an interesting story and shares with Alice by ' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?,Bob finds an interesting story and shares with Alice by
+What is meant by 'Bob asksAlice to check it out' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?,Bob asksAlice to check it out
+"What is meant by 'Alice logs in her account,checks her Facebook wall but' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?","Alice logs in her account,checks her Facebook wall but"
+What is meant by 'Bob tells Alice to wait a bit and check out later' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?,Bob tells Alice to wait a bit and check out later
+What is meant by 'Alice waits for a minute or so and checks back – Finds the' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?,Alice waits for a minute or so and checks back – Finds the
+What is meant by 'Why would Facebook choose an eventual consistent' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?,Why would Facebook choose an eventual consistent
+"What is meant by 'https' in context of CAP Theorem."" Computer 45.2 (2012):30-36?",https://mwhittaker.github.io/blog/an_illustrated_p
+What is meant by 'Technology is abstracted away from the user.' in context of Cloud Computing Principles?,Technology is abstracted away from the user.
+What is meant by 'e.g. hardware and software management is the responsibility of the cloud ' in context of Cloud Computing Principles?,e.g. hardware and software management is the responsibility of the cloud
+What is meant by 'Location-independent (if you have enough bandwidth)' in context of Cloud Computing Principles?,Location-independent (if you have enough bandwidth)
+What is meant by 'Cloud Services have a scalable architecture' in context of Cloud Computing Principles?,Cloud Services have a scalable architecture
+What is meant by 'Dynamic' in context of Cloud Computing Principles?,Dynamic
+What is meant by 'Request-driven' in context of Cloud Computing Principles?,Request-driven
+What is meant by 'Clouds have multi-tenancy' in context of Cloud Computing Principles?,Clouds have multi-tenancy
+What is meant by 'Scale and Elasticity' in context of Features of Cloud?,Scale and Elasticity
+What is meant by 'Resource pooling' in context of Features of Cloud?,Resource pooling
+What is meant by 'Location independence' in context of Features of Cloud?,Location independence
+What is meant by 'On-demand self-service provisioning' in context of Features of Cloud?,On-demand self-service provisioning
+What is meant by 'Web services interfaces' in context of Features of Cloud?,Web services interfaces
+What is meant by 'Billing and metering services' in context of Features of Cloud?,Billing and metering services
+What is meant by 'Monitoring and measuring performance' in context of Features of Cloud?,Monitoring and measuring performance
+What is meant by 'Cloud computing is a style of computing in which scalable and elastic IT - enabled ' in context of Gartner?,Cloud computing is a style of computing in which scalable and elastic IT - enabled
+"What is meant by 'A standardized IT capability (services, software, or infrastructure)delivered in a pay-per-' in context of Forrester Research?","A standardized IT capability (services, software, or infrastructure)delivered in a pay-per-"
+"What is meant by 'Cloud computing is a model for enabling ubiquitous, convenient, on-demand network ' in context of NIST?","Cloud computing is a model for enabling ubiquitous, convenient, on-demand network"
+What is Everything as a Service?,"⚫ Traditionally applications ran on dedicated hardware ⚫ Clouds provide everything (hardware, software, applications, etc.) as a  service"
+What is meant by 'Cloud Software as a Service (SaaS)' in context of The Business Case for the Cloud?,Cloud Software as a Service (SaaS)
+What is meant by 'Cloud Platform as a Service (PaaS)' in context of The Business Case for the Cloud?,Cloud Platform as a Service (PaaS)
+What is meant by 'Cloud Infrastructure as a Service (IaaS)' in context of The Business Case for the Cloud?,Cloud Infrastructure as a Service (IaaS)
+What is meant by 'Customer rents computing resources rather than buying and installing them' in context of Infrastructure as a Service (IaaS)?,Customer rents computing resources rather than buying and installing them
+What is meant by 'Paid on a usage basis' in context of Infrastructure as a Service (IaaS)?,Paid on a usage basis
+What is meant by 'May include dynamic scaling' in context of Infrastructure as a Service (IaaS)?,May include dynamic scaling
+What is Platform as a Service (PaaS)?,⚫ Delivers a solution stack (ready-made) for both ⚫ software development and ⚫ a runtime environment ⚫ Easy to develop applications ⚫ May be constrained ⚫ Danger of lock-in ⚫ allow you to focus on the deployment and management of your  applications. ⚫ Cloud consumer is spared the administrative burden of setting up  and maintaining the bare infrastructure IT resources
+What is Software as a Service (SaaS)?,"⚫ Service provider offers specific applications offered as a “product” ⚫ hosted by the provider ⚫ Consumed by the customer ⚫ May be customised by the customer ⚫ Information stored by the provider ⚫ No necessity to purchase any hardware ⚫ The SaaS vendor ⚫ Operates ⚫ Maintains and ⚫ Supports all the software, hardware, and communications technology ⚫ The price is on a per-use basis and involves no upfront capital costs."
+"What is meant by 'Flexibility, finer control, & performance' in context of IaaS?","Flexibility, finer control, & performance"
+What is meant by 'Still need some level of infrastructure maintenance' in context of IaaS?,Still need some level of infrastructure maintenance
+"What is meant by 'Speedy development, better integration, automated scaling, no maintenance ' in context of PaaS?","Speedy development, better integration, automated scaling, no maintenance"
+What is meant by 'Fastest for common applications' in context of SaaS?,Fastest for common applications
+What is meant by 'Storage as a Service' in context of Many specialized variations of the three base cloud delivery models have?,Storage as a Service
+What is meant by 'Database as a Service' in context of Many specialized variations of the three base cloud delivery models have?,Database as a Service
+What is meant by 'Security as a Service' in context of Many specialized variations of the three base cloud delivery models have?,Security as a Service
+What is meant by 'Communication as a Service' in context of Many specialized variations of the three base cloud delivery models have?,Communication as a Service
+What is meant by 'Integration as a Service' in context of Many specialized variations of the three base cloud delivery models have?,Integration as a Service
+What is meant by 'Testing as a Service' in context of Many specialized variations of the three base cloud delivery models have?,Testing as a Service
+What is meant by 'Private cloud' in context of Cloud service/ delivery models variations?,Private cloud
+What is meant by 'Public cloud' in context of Cloud service/ delivery models variations?,Public cloud
+What is meant by 'Hybrid cloud' in context of Cloud service/ delivery models variations?,Hybrid cloud
+What is meant by 'Community cloud' in context of Cloud service/ delivery models variations?,Community cloud
+What is meant by 'Personal cloud' in context of Cloud service/ delivery models variations?,Personal cloud
+What is meant by 'Cloud computing often leverages' in context of Common Cloud Characteristics?,Cloud computing often leverages:
+What is meant by 'What services are available?' in context of Know what you want first?,What services are available?
+What is meant by 'What is your pricing model?' in context of Know what you want first?,What is your pricing model?
+What is meant by 'What are your scaling options?' in context of Know what you want first?,What are your scaling options?
+What is meant by 'What are your security measures?' in context of Know what you want first?,What are your security measures?
+What is meant by 'Where are your datacenters located?' in context of Know what you want first?,Where are your datacenters located?
+What is meant by 'What are SLA terms?' in context of Know what you want first?,What are SLA terms?
+What is meant by 'Customer support' in context of Know what you want first?,Customer support
+What is meant by 'https' in context of References?,https://www.cloudflare.com/learning/cloud/what-is-the-cloud/
+What is meant by 'The guaranteed proportion of time that the system ' in context of Availability?,The guaranteed proportion of time that the system
+What is Downtime per year?,99.999 99.95 5 minutes 1 hour 99.99 99.9 99 4.4 hours 9 hours 3.7 days
+What is meant by 'Brief History – Infrastructure shifts over the decades' in context of AGENDA?,Brief History – Infrastructure shifts over the decades
+What is meant by 'VMs vs Containers' in context of AGENDA?,VMs vs Containers
+What is meant by 'What are containers and what problem does it solve?' in context of AGENDA?,What are containers and what problem does it solve?
+What is meant by 'What is Docker?' in context of AGENDA?,What is Docker?
+What is meant by 'Deep dive into Docker Internals' in context of AGENDA?,Deep dive into Docker Internals
+"What is meant by 'Just an isolated process running on the host machine. And a restricted process.' in context of IN SUMMARY A CONTAINER IS,?",Just an isolated process running on the host machine. And a restricted process.
+"What is meant by 'Will share OS and, where appropriate, bins/ libraries and limited to what ' in context of IN SUMMARY A CONTAINER IS,?","Will share OS and, where appropriate, bins/ libraries and limited to what"
+"What is meant by 'It exits when the process stops.' in context of IN SUMMARY A CONTAINER IS,?",It exits when the process stops.
+"What is meant by 'So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear ' in context of WHAT IS DOCKER??","So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear"
+What is meant by 'Docker as a “Company”' in context of WHAT IS DOCKER??,Docker as a “Company”
+What is meant by 'Docker as a “Product”' in context of WHAT IS DOCKER??,Docker as a “Product”
+What is meant by 'Docker as a “Platform”' in context of WHAT IS DOCKER??,Docker as a “Platform”
+What is meant by 'Docker as a “CLI tool”' in context of WHAT IS DOCKER??,Docker as a “CLI tool”
+What is meant by 'Docker provides the ability to package and run applications within a loosely ' in context of WHAT IS DOCKER??,Docker provides the ability to package and run applications within a loosely
+"What is meant by 'It provides tooling and a platform to manage lifecycle of your containers,' in context of WHAT IS DOCKER??","It provides tooling and a platform to manage lifecycle of your containers,"
+What is meant by 'Develop your apps and supporting components using containers' in context of WHAT IS DOCKER??,Develop your apps and supporting components using containers
+What is meant by 'Distribute and test your apps as a container' in context of WHAT IS DOCKER??,Distribute and test your apps as a container
+"What is meant by 'Ability to deploy your app as a container or an orchestrated service, in whatever environment which supports Docker ' in context of WHAT IS DOCKER??","Ability to deploy your app as a container or an orchestrated service, in whatever environment which supports Docker"
+What is meant by 'It shares the same OS kernel' in context of WHAT IS DOCKER??,It shares the same OS kernel
+What is meant by 'Docker is an extension of LXC’s (Linux Containers) capabilities and packaged ' in context of UNDERLYING TECHNOLOGY IN DOCKER?,Docker is an extension of LXC’s (Linux Containers) capabilities and packaged
+"What is meant by 'It was developed in Go language and utilizes LXC, namespaces, cgroups and ' in context of UNDERLYING TECHNOLOGY IN DOCKER?","It was developed in Go language and utilizes LXC, namespaces, cgroups and"
+"What is meant by 'Docker CLI structure,' in context of BASIC DOCKER COMMANDS?","Docker CLI structure,"
+What is meant by 'Old (Still works as expected) docker <command> options' in context of BASIC DOCKER COMMANDS?,Old (Still works as expected) docker <command> options
+What is meant by 'New – docker <command> <sub-command> (options)' in context of BASIC DOCKER COMMANDS?,New – docker <command> <sub-command> (options)
+What is meant by 'Pulling Docker Image' in context of BASIC DOCKER COMMANDS?,Pulling Docker Image
+What is meant by 'docker pull nginx' in context of BASIC DOCKER COMMANDS?,docker pull nginx
+What is meant by 'Running a Docker Container' in context of BASIC DOCKER COMMANDS?,Running a Docker Container
+What is meant by 'docker run –p 80' in context of BASIC DOCKER COMMANDS?,docker run –p 80:80 --name web-server nginx
+What is meant by 'Stopping the Container' in context of BASIC DOCKER COMMANDS?,Stopping the Container
+What is meant by 'docker stop web-server (or container id) ' in context of BASIC DOCKER COMMANDS?,docker stop web-server (or container id)
+"What is meant by 'Check what’s happening in a containers,' in context of BASIC DOCKER COMMANDS?","Check what’s happening in a containers,"
+What is meant by 'docker container top web-server – Process list in 1 container' in context of BASIC DOCKER COMMANDS?,docker container top web-server – Process list in 1 container
+What is meant by 'docker container inspect web-server – Details of one container config' in context of BASIC DOCKER COMMANDS?,docker container inspect web-server – Details of one container config
+What is meant by 'docker container stats – Performance stats for all containers' in context of BASIC DOCKER COMMANDS?,docker container stats – Performance stats for all containers
+"What is meant by 'Getting a shell inside containers,' in context of BASIC DOCKER COMMANDS?","Getting a shell inside containers,"
+What is meant by 'docker container run –it – Start a new container interactively' in context of BASIC DOCKER COMMANDS?,docker container run –it – Start a new container interactively
+What is meant by 'docker container exec –it <container_id_or_name> echo “I’m inside the container” – Run additional ' in context of BASIC DOCKER COMMANDS?,docker container exec –it <container_id_or_name> echo “I’m inside the container” – Run additional
+"What is meant by 'Listing, removing containers and images' in context of BASIC DOCKER COMMANDS?","Listing, removing containers and images"
+What is meant by 'docker images' in context of BASIC DOCKER COMMANDS?,docker images
+What is meant by 'docker container ls | docker ps ' in context of BASIC DOCKER COMMANDS?,docker container ls | docker ps
+What is meant by 'Docker – Container runtime + Tool for managing containers and images' in context of ARE THERE SOLUTIONS OTHER THAN DOCKER??,Docker – Container runtime + Tool for managing containers and images
+What is meant by 'Containerd – Container runtime only' in context of ARE THERE SOLUTIONS OTHER THAN DOCKER??,Containerd – Container runtime only
+What is meant by 'docker run –p 80' in context of WHAT HAPPENS WHEN YOU RUN A CONTAINER??,docker run –p 80:80 nginx | docker container run –p 80:80 nginx
+"What is Looks for that particular image locally in image cache, if its not found pulls it from the?",configured registry (image repository). Downloads the latest version by default  (nginx:latest) 2.
+"What is Docker allocates read write filesystem to the container, as its final layer. This allows running?",container to modify files and directories in its local filesystem. 4.
+What is meant by 'Docker Images' in context of DOCKER OBJECTS?,Docker Images
+What is meant by 'A read-only template with instructions/ metadata for creating a Docker container.' in context of DOCKER OBJECTS?,A read-only template with instructions/ metadata for creating a Docker container.
+What is meant by 'Can create your own image or use images created and published in a registry by others.' in context of DOCKER OBJECTS?,Can create your own image or use images created and published in a registry by others.
+What is meant by 'Dockerfile can be used to define steps required to create and run the image.' in context of DOCKER OBJECTS?,Dockerfile can be used to define steps required to create and run the image.
+"What is meant by 'Each instruction in Dockerfile creates a layer in the image, only those layers which ' in context of DOCKER OBJECTS?","Each instruction in Dockerfile creates a layer in the image, only those layers which"
+What is meant by 'Docker Containers' in context of DOCKER OBJECTS?,Docker Containers
+What is meant by 'Runnable instance of an image.' in context of DOCKER OBJECTS?,Runnable instance of an image.
+"What is meant by 'Can create, start, stop, move, or delete a container using the Docker API or CLI.' in context of DOCKER OBJECTS?","Can create, start, stop, move, or delete a container using the Docker API or CLI."
+"What is meant by 'Can connect it to one or more networks, attach storage to it, or even create a new image ' in context of DOCKER OBJECTS?","Can connect it to one or more networks, attach storage to it, or even create a new image"
+What is meant by 'A container is defined by its image as well as any config options provided to it when you ' in context of DOCKER OBJECTS?,A container is defined by its image as well as any config options provided to it when you
+What is meant by 'Docker Filesystem' in context of INTERNALS?,Docker Filesystem
+What is meant by 'Boot file system (bootfs) – Contains the bootloader and the kernel. User never touches ' in context of INTERNALS?,Boot file system (bootfs) – Contains the bootloader and the kernel. User never touches
+What is meant by 'Root file system (rootfs) – Includes the typical directory structure we associate with Unix-' in context of INTERNALS?,Root file system (rootfs) – Includes the typical directory structure we associate with Unix-
+"What is meant by 'In traditional Linux boot, kernel first mounts the rootfs as read-only, checks its integrity, ' in context of INTERNALS?","In traditional Linux boot, kernel first mounts the rootfs as read-only, checks its integrity,"
+"What is meant by 'Docker mounts the rootfs and instead of changing the file system to read-write mode, ' in context of INTERNALS?","Docker mounts the rootfs and instead of changing the file system to read-write mode,"
+"What is meant by 'In Docker terminology, a read-only layer is called an image. An image never changes ' in context of INTERNALS?","In Docker terminology, a read-only layer is called an image. An image never changes"
+What is meant by 'Each image depend on one more image which creates the layer beneath it. The lower ' in context of INTERNALS?,Each image depend on one more image which creates the layer beneath it. The lower
+"What is meant by 'When you run a container, Docker fetches the image and its Parent Image, and repeats ' in context of INTERNALS?","When you run a container, Docker fetches the image and its Parent Image, and repeats"
+"What is meant by 'That read-write layer, plus the information about its Parent Image and some additional ' in context of INTERNALS?","That read-write layer, plus the information about its Parent Image and some additional"
+"What is meant by 'A container can have two states, it may be running or exited. ' in context of INTERNALS?","A container can have two states, it may be running or exited."
+What is meant by 'When a container is exited the state of the file system and its exit value is saved. ' in context of INTERNALS?,When a container is exited the state of the file system and its exit value is saved.
+"What is meant by 'You can start, stop, and restart a container. The processes of restarting a container from ' in context of INTERNALS?","You can start, stop, and restart a container. The processes of restarting a container from"
+What is meant by 'You can also remove the container permanently. ' in context of INTERNALS?,You can also remove the container permanently.
+What is meant by 'A container can also be promoted directly into an image using the docker commit ' in context of INTERNALS?,A container can also be promoted directly into an image using the docker commit
+What is meant by 'docker commit <container-id> <image-name' in context of INTERNALS?,docker commit <container-id> <image-name:tag>
+What is meant by 'If a file or directory exists in a lower layer within ' in context of Copy on Write to improve the efficiency by?,If a file or directory exists in a lower layer within
+What is meant by 'The first time another layer needs to modify the ' in context of Copy on Write to improve the efficiency by?,The first time another layer needs to modify the
+What is meant by 'Docker Image Creation and Storage' in context of Copy on Write to improve the efficiency by?,Docker Image Creation and Storage
+What is meant by 'You can create an image using a Dockerfile or by committing a container’s ' in context of Copy on Write to improve the efficiency by?,You can create an image using a Dockerfile or by committing a container’s
+"What is meant by 'Once you create an image, it will be stored in the Docker host’s local image ' in context of Copy on Write to improve the efficiency by?","Once you create an image, it will be stored in the Docker host’s local image"
+"What is meant by 'In order to move images in/out of the local image cache,' in context of Copy on Write to improve the efficiency by?","In order to move images in/out of the local image cache,"
+What is meant by 'Export/ Import it as a tarball' in context of Copy on Write to improve the efficiency by?,Export/ Import it as a tarball
+What is meant by 'Docker Networks' in context of DOCKER OBJECTS CONT…?,Docker Networks
+What is meant by 'Each container is connected to a private virtual network called “bridge”.' in context of DOCKER OBJECTS CONT…?,Each container is connected to a private virtual network called “bridge”.
+What is meant by 'Each virtual network routes through the NAT firewall on the host IP.' in context of DOCKER OBJECTS CONT…?,Each virtual network routes through the NAT firewall on the host IP.
+What is meant by 'All containers on a virtual network can talk to each other without exposing ports.' in context of DOCKER OBJECTS CONT…?,All containers on a virtual network can talk to each other without exposing ports.
+What is meant by 'Best practice is to create a new virtual network for each app.' in context of DOCKER OBJECTS CONT…?,Best practice is to create a new virtual network for each app.
+What is meant by 'Docker enables to' in context of DOCKER OBJECTS CONT…?,Docker enables to:
+What is meant by 'Create new virtual networks.' in context of DOCKER OBJECTS CONT…?,Create new virtual networks.
+What is meant by 'Attach container to more than one virtual network (or none)' in context of DOCKER OBJECTS CONT…?,Attach container to more than one virtual network (or none)
+What is meant by 'Skip virtual networks and use host IP (--net=host)' in context of DOCKER OBJECTS CONT…?,Skip virtual networks and use host IP (--net=host)
+What is meant by 'Use different Docker network drivers to gain new abilities. ' in context of DOCKER OBJECTS CONT…?,Use different Docker network drivers to gain new abilities.
+"What is meant by 'Docker Engine provides support for different network drivers – bridge (default), overlay and ' in context of DOCKER OBJECTS CONT…?","Docker Engine provides support for different network drivers – bridge (default), overlay and"
+What is meant by 'Docker Networking – DNS' in context of DOCKER OBJECTS CONT…?,Docker Networking – DNS
+"What is meant by 'Docker deamon has a built in DNS, which consider container name as equivalent hostname of ' in context of DOCKER OBJECTS CONT…?","Docker deamon has a built in DNS, which consider container name as equivalent hostname of"
+What is meant by 'If we want to use persistence data as in like databases or unique data in ' in context of PERSISTENCE DATA?,If we want to use persistence data as in like databases or unique data in
+What is meant by 'Volumes – Make a location outside of container UFS.' in context of PERSISTENCE DATA?,Volumes – Make a location outside of container UFS.
+"What is meant by 'Another Docker client, that lets you work with apps consisting of a set of ' in context of DOCKER COMPOSE?","Another Docker client, that lets you work with apps consisting of a set of"
+What is meant by 'Can use this to create one-line development environments' in context of VCS.?,Can use this to create one-line development environments
+What is meant by 'Consists of two components' in context of VCS.?,Consists of two components
+"What is meant by 'YAML formatted file that describes – Images, Containers, Networks, Volumes etc…' in context of VCS.?","YAML formatted file that describes – Images, Containers, Networks, Volumes etc…"
+"What is meant by 'Container orchestration automates the deployment, management, scaling, and ' in context of CONTAINER ORCHESTRATION?","Container orchestration automates the deployment, management, scaling, and"
+What is meant by 'Container orchestration can be used in any environment where you use ' in context of CONTAINER ORCHESTRATION?,Container orchestration can be used in any environment where you use
+What is meant by 'Docker Swarm provides the cluster management and orchestration features of Docker Engine ' in context of DOCKER SWARM KEY CONCEPTS?,Docker Swarm provides the cluster management and orchestration features of Docker Engine
+What is meant by 'Nodes - A node is an instance of the Docker engine participating in the swarm. You can also ' in context of DOCKER SWARM KEY CONCEPTS?,Nodes - A node is an instance of the Docker engine participating in the swarm. You can also
+"What is meant by 'Manager Node - To deploy your application to a swarm, you submit a service definition ' in context of DOCKER SWARM KEY CONCEPTS?","Manager Node - To deploy your application to a swarm, you submit a service definition"
+What is meant by 'Worker Nodes - Receive and execute tasks dispatched from manager nodes. An agent ' in context of DOCKER SWARM KEY CONCEPTS?,Worker Nodes - Receive and execute tasks dispatched from manager nodes. An agent
+What is meant by 'Task - It is the atomic scheduling unit of swarm. Manager nodes assign tasks to worker ' in context of DOCKER SWARM KEY CONCEPTS?,Task - It is the atomic scheduling unit of swarm. Manager nodes assign tasks to worker
+What is meant by 'Service - the definition of the tasks to execute on the manager or worker nodes. Here is ' in context of DOCKER SWARM KEY CONCEPTS?,Service - the definition of the tasks to execute on the manager or worker nodes. Here is
+What is meant by 'Replicated services model - the swarm manager distributes a specific number of ' in context of DOCKER SWARM KEY CONCEPTS?,Replicated services model - the swarm manager distributes a specific number of
+What is meant by 'Global services model - the swarm runs one task for the service on every available ' in context of DOCKER SWARM KEY CONCEPTS?,Global services model - the swarm runs one task for the service on every available
+What is meant by 'docker swarm init --advertise-addr <MANAGER-IP>' in context of DOCKER SWARM KEY CONCEPTS?,docker swarm init --advertise-addr <MANAGER-IP>
+What is meant by 'Join a worker node - docker swarm join --token  SWMTKN-1 ' in context of DOCKER SWARM KEY CONCEPTS?,Join a worker node - docker swarm join --token  SWMTKN-1
+What is meant by 'docker service create --replicas 1 --name helloworld alpine ping docker.com' in context of DOCKER SWARM KEY CONCEPTS?,docker service create --replicas 1 --name helloworld alpine ping docker.com
+"What is meant by '“Kubernetes (k8s) is an open source platform for automating deployment, scaling and ' in context of WHAT IS KUBERNETES??","“Kubernetes (k8s) is an open source platform for automating deployment, scaling and"
+What is meant by 'Project that was created by Google as an open source container orchestration ' in context of WHAT IS KUBERNETES??,Project that was created by Google as an open source container orchestration
+What is Kubernetes project?,• Current Kubernetes stable version – 1.29
+What is meant by 'Horizontal scaling' in context of IT’S CAPABLE OF…?,Horizontal scaling
+What is meant by 'Load distribution' in context of IT’S CAPABLE OF…?,Load distribution
+What is meant by 'Service discovery' in context of IT’S CAPABLE OF…?,Service discovery
+What is meant by 'Health monitoring' in context of IT’S CAPABLE OF…?,Health monitoring
+"What is meant by 'Deploying new versions, rollbacks' in context of IT’S CAPABLE OF…?","Deploying new versions, rollbacks"
+What is meant by 'Master [Control Plane]  ' in context of HIGH LEVEL ARCHITECTURE?,Master [Control Plane]
+What is meant by 'coordinates all activities in the cluster ' in context of HIGH LEVEL ARCHITECTURE?,coordinates all activities in the cluster
+What is meant by 'Nodes' in context of HIGH LEVEL ARCHITECTURE?,Nodes:
+What is meant by 'virtual or physical machines ' in context of HIGH LEVEL ARCHITECTURE?,virtual or physical machines
+What is meant by 'actual workers ' in context of HIGH LEVEL ARCHITECTURE?,actual workers
+What is meant by 'runs processes' in context of HIGH LEVEL ARCHITECTURE?,runs processes:
+What is meant by 'kubelet  ' in context of HIGH LEVEL ARCHITECTURE?,kubelet
+What is meant by 'kube-proxy' in context of HIGH LEVEL ARCHITECTURE?,kube-proxy
+What is meant by 'Pods ' in context of Eg docker container?,Pods
+What is meant by 'the way of running containers in kubernetes ' in context of Eg docker container?,the way of running containers in kubernetes
+What is meant by 'basic deployable and scaling unit ' in context of Eg docker container?,basic deployable and scaling unit
+What is meant by 'defines one or more containers ' in context of Eg docker container?,defines one or more containers
+What is meant by 'containers are co-located on a node ' in context of Eg docker container?,containers are co-located on a node
+What is meant by 'flat network structure ' in context of Eg docker container?,flat network structure
+What is meant by 'Nodes' in context of Eg docker container?,Nodes:
+What is meant by 'physical worker machines ' in context of Eg docker container?,physical worker machines
+What is meant by 'can run multiple pods ' in context of Eg docker container?,can run multiple pods
+What is meant by 'pods running within single node don’t know about each other' in context of Eg docker container?,pods running within single node don’t know about each other
+What is meant by 'Minikube' in context of Eg docker container?,Minikube:
+What is meant by 'single node cluster ' in context of Eg docker container?,single node cluster
+What is meant by 'running in a VM ' in context of Eg docker container?,running in a VM
+"What is meant by 'supports linux, windows and macOS' in context of Eg docker container?","supports linux, windows and macOS"
+What is meant by 'Docker Desktop with built-in ' in context of RUNNING THINGS LOCALLY?,Docker Desktop with built-in
+What is meant by 'single node cluster ' in context of RUNNING THINGS LOCALLY?,single node cluster
+What is meant by 'running in a VM ' in context of RUNNING THINGS LOCALLY?,running in a VM
+What is meant by 'windows and macOS ' in context of RUNNING THINGS LOCALLY?,windows and macOS
+What is meant by 'drag & drop installation ' in context of RUNNING THINGS LOCALLY?,drag & drop installation
+What is meant by 'bound to specific kubernetes ' in context of RUNNING THINGS LOCALLY?,bound to specific kubernetes
+What is meant by 'kind' in context of RUNNING THINGS LOCALLY?,kind:
+What is Podman installed in your local?,computer https://kubernetes.io/docs/tasks/tools/
+What is meant by 'Create resource from file - kubectl create -f resource_file.yml ' in context of MANAGING CLUSTER RESOURCES?,Create resource from file - kubectl create -f resource_file.yml
+What is meant by 'Change existing (or create) resource based on file - kubectl apply -f ' in context of MANAGING CLUSTER RESOURCES?,Change existing (or create) resource based on file - kubectl apply -f
+What is meant by 'Delete existing resource - kubectl delete resource_type resource_name ' in context of MANAGING CLUSTER RESOURCES?,Delete existing resource - kubectl delete resource_type resource_name
+What is meant by 'List resources of type - kubectl get resource_type ' in context of MANAGING CLUSTER RESOURCES?,List resources of type - kubectl get resource_type
+What is meant by 'Execute command on the container - kubectl exec [-it] pod_name process_to_run' in context of DEBUGGING CLUSTER RESOURCES?,Execute command on the container - kubectl exec [-it] pod_name process_to_run
+What is meant by 'Get container logs - kubectl logs pod_name [-c container_name]' in context of DEBUGGING CLUSTER RESOURCES?,Get container logs - kubectl logs pod_name [-c container_name]
+What is meant by 'Forward port from a pod - kubectl port-forward pod_name local_port' in context of DEBUGGING CLUSTER RESOURCES?,Forward port from a pod - kubectl port-forward pod_name local_port:remote_port
+What is meant by 'Print detailed description of a resource - kubectl describe resource_type ' in context of DEBUGGING CLUSTER RESOURCES?,Print detailed description of a resource - kubectl describe resource_type
+What is meant by 'Replica Sets - Ensures desired number of pods exist by' in context of FEW RESOURCE OBJECTS IN K8S?,Replica Sets - Ensures desired number of pods exist by: scaling up or down and
+What is meant by 'Deployment' in context of FEW RESOURCE OBJECTS IN K8S?,Deployment
+What is meant by 'A Deployment provides declarative updates for Pods and ReplicaSets. You describe a desired ' in context of FEW RESOURCE OBJECTS IN K8S?,A Deployment provides declarative updates for Pods and ReplicaSets. You describe a desired
+What is meant by 'Service' in context of FEW RESOURCE OBJECTS IN K8S?,Service
+What is meant by 'A method for exposing a network application that is running as one or ' in context of FEW RESOURCE OBJECTS IN K8S?,A method for exposing a network application that is running as one or
+What is meant by 'Defining a Pod' in context of DEMO?,Defining a Pod
+What is meant by 'Creating a ReplicaSet' in context of DEMO?,Creating a ReplicaSet
+What is meant by 'Creating a Deployment' in context of DEMO?,Creating a Deployment
+What is meant by 'Creating a Service and exposing it' in context of DEMO?,Creating a Service and exposing it
+What is meant by 'https' in context of REFERENCES?,https://docs.docker.com/get-started/overview/
+What is meant by 'Docker Storage Drivers - https' in context of REFERENCES?,Docker Storage Drivers - https://docs.docker.com/storage/storagedriver/
+What is meant by 'Docker Buildx - https' in context of REFERENCES?,Docker Buildx - https://docs.docker.com/buildx/working-with-buildx/
+What is meant by 'Jiang Huan BuildKit timings - https' in context of REFERENCES?,Jiang Huan BuildKit timings - https://medium.com/titansoft-engineering/docker-build-cache-sharing-on-multi-hosts-with-
+What is meant by 'STL - DevOps @ Sysco LABS - Sri Lanka' in context of About Me?,STL - DevOps @ Sysco LABS - Sri Lanka
+What is meant by 'Certified Kubernetes Administrator (CKA)' in context of Professional?,Certified Kubernetes Administrator (CKA)
+What is How can we?,"overcome these  issues? “DevOps is the combination of cultural philosophies, practices, and tools that  increases an organization’s ability to deliver applications and services at high  velocity” - What is DevOps? [AWS] - “A compound of development (Dev) and operations (Ops), DevOps is the union of  people, process, and technology to continually provide value to customers.”  - What is DevOps? [Azure] -"
+What is DevOps allows evolving and improving products at a faster pace than businesses using traditional software?,development and infrastructure management processes. This speed allows businesses to serve their  customers better and compete effectively.
+What is meant by 'Continuous Integration (CI) - Software development practice where developers regularly merge ' in context of Practices?,Continuous Integration (CI) - Software development practice where developers regularly merge
+What is meant by 'Continuous Delivery (CD) - Software development practice where code changes are automatically ' in context of Practices?,Continuous Delivery (CD) - Software development practice where code changes are automatically
+What is meant by 'Continuous Deployment (CD) - Every change that passes all stages of the pipeline will be ' in context of Practices?,Continuous Deployment (CD) - Every change that passes all stages of the pipeline will be
+What is meant by 'Microservices - The microservices architecture is a design approach to build a single application ' in context of Practices?,Microservices - The microservices architecture is a design approach to build a single application
+What is meant by 'Infrastructure as Code - A practice in which infrastructure is provisioned and managed using code ' in context of Practices?,Infrastructure as Code - A practice in which infrastructure is provisioned and managed using code
+"What is meant by 'GitOps - builds on the concept of IaC, incorporating the functionality of Git repositories, merge ' in context of Practices?","GitOps - builds on the concept of IaC, incorporating the functionality of Git repositories, merge"
+"What is meant by 'Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to ' in context of Practices?","Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to"
+"What is meant by 'Continuous Monitoring, Logging and Alerting - Organizations monitor metrics and logs to see ' in context of Practices?","Continuous Monitoring, Logging and Alerting - Organizations monitor metrics and logs to see"
+What is X (Twitter)?,https://www.linkedin.com/in/ravindufernando/
+What is meant by 'Influential Concepts and Technologies' in context of Paving the Way for Microservices?,Influential Concepts and Technologies
+What is meant by 'Domain-Driven Design' in context of Paving the Way for Microservices?,Domain-Driven Design: Emphasizing the importance of reflecting real-world complexities in our code
+What is meant by 'Continuous Delivery' in context of Paving the Way for Microservices?,"Continuous Delivery: Revolutionizing software deployment, making every code check-in a potential"
+What is meant by 'Web Communication Advancements' in context of Paving the Way for Microservices?,"Web Communication Advancements: Enhancing how machines interact, leading to more efficient and"
+What is meant by 'Architectural Shifts' in context of Paving the Way for Microservices?,Architectural Shifts
+What is meant by 'From Layered to Hexagonal' in context of Paving the Way for Microservices?,From Layered to Hexagonal: Moving away from traditional layered architectures to avoid hidden
+What is meant by 'Embracing Virtualization' in context of Paving the Way for Microservices?,Embracing Virtualization: Utilizing on-demand provisioning and resizing of resources for greater
+What is meant by 'Organizational Practices' in context of Paving the Way for Microservices?,Organizational Practices
+What is meant by 'Small Autonomous Teams' in context of Paving the Way for Microservices?,"Small Autonomous Teams: Inspired by tech giants like Amazon and Google, promoting ownership and"
+What is meant by 'Emergence from Real-World Use' in context of Microservices: A Natural Progression?,Emergence from Real-World Use: Microservices weren’t pre-planned
+What is meant by 'Responding to Change' in context of Microservices: A Natural Progression?,Responding to Change: Offering the agility and flexibility to adapt to
+What is meant by 'Basic Structure' in context of Monolithic Applications?,Basic Structure
+What is meant by 'Single-Tiered Structure' in context of Monolithic Applications?,"Single-Tiered Structure: Built as a single, unified unit."
+What is meant by 'Combined Modules' in context of Monolithic Applications?,"Combined Modules: Functional modules like UI, server logic, and database interactions are"
+What is meant by 'Design and Construction' in context of Monolithic Applications?,Design and Construction
+What is meant by 'Modular Architecture' in context of Monolithic Applications?,"Modular Architecture: Follows a modular structure within a single unit, aligning with object-"
+What is meant by 'Programming Constructs' in context of Monolithic Applications?,"Programming Constructs: Defined using language-specific constructs (e.g., Java packages)."
+What is meant by 'Build Artifacts' in context of Monolithic Applications?,"Build Artifacts: Built as a single artifact, such as a Java JAR file."
+What is meant by 'Characteristics' in context of Monolithic Applications?,Characteristics
+What is meant by 'Inter-module Dependencies' in context of Monolithic Applications?,Inter-module Dependencies: Modules are tightly coupled and interdependent.
+What is meant by 'Unified Deployment' in context of Monolithic Applications?,Unified Deployment: Deployed as a single entity.
+What is meant by 'Scalability' in context of Monolithic Applications?,Scalability
+What is meant by 'Scalability Approach' in context of Monolithic Applications?,"Scalability Approach: Scaling involves replicating the entire application, not individual"
+What is meant by 'Benefits of Monolithic Architecture' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Benefits of Monolithic Architecture
+What is meant by 'Simplified Testing' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Simplified Testing: Tools like Selenium enable end-to-end testing of the entire application.
+What is meant by 'Ease of Deployment' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Ease of Deployment: Deployment involves simply copying the packaged application to a
+What is meant by 'Resource Sharing' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,"Resource Sharing: All modules share memory, space, and resources, streamlining cross-"
+What is meant by 'Intra-Process Communication' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Intra-Process Communication: Direct module-to-module calls can offer performance
+What is meant by 'Challenges of Monolithic Architecture' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Challenges of Monolithic Architecture
+What is meant by 'Scalability Issues' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Scalability Issues: Difficulty in scaling when different modules have conflicting resource
+What is meant by 'Complexity in Maintenance and Updates' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,"Complexity in Maintenance and Updates: As the application grows, implementing changes"
+What is meant by 'CI/CD Complications' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,CI/CD Complications: Continuous integration and deployment become challenging as any
+What is meant by 'Vulnerability to System Failures' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,"Vulnerability to System Failures: A bug in any module, like a memory leak, can crash the"
+What is meant by 'Technological Rigidity' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,"Technological Rigidity: Adopting new frameworks or languages is costly and time-consuming,"
+What is meant by 'Core Characteristics' in context of Understanding Microservices?,Core Characteristics
+What is meant by 'Small and Focused' in context of Understanding Microservices?,"Small and Focused: Aimed at doing one thing well, avoiding sprawling"
+What is meant by 'Cohesion and Single Responsibility' in context of Understanding Microservices?,Cohesion and Single Responsibility: Adhering to the principle of grouping
+What is meant by 'Size and Scope' in context of Understanding Microservices?,Size and Scope
+What is meant by 'No Fixed Size' in context of Understanding Microservices?,No Fixed Size: Size varies based on language expressiveness and domain
+What is meant by 'Team Alignment' in context of Understanding Microservices?,Team Alignment: Ideally sized to be managed by a small team.
+What is meant by 'Balance in Size' in context of Understanding Microservices?,Balance in Size: Smaller services maximize benefits but increase complexity.
+What is meant by 'Autonomy' in context of Understanding Microservices?,Autonomy
+What is meant by 'Independent Entities' in context of Understanding Microservices?,"Independent Entities: Deployed separately, can be different technologies, possibly as isolated"
+What is meant by 'Network Communication' in context of Understanding Microservices?,"Network Communication: Services communicate via network calls, ensuring separation and"
+What is meant by 'Deployment and Change Management' in context of Understanding Microservices?,Deployment and Change Management
+What is meant by 'Independent Deployment' in context of Understanding Microservices?,Independent Deployment: Services can be deployed independently without impacting
+What is meant by 'API-Centric Interaction' in context of Understanding Microservices?,"API-Centric Interaction: Services expose APIs for interaction, emphasizing decoupled,"
+What is meant by 'Decoupling' in context of Understanding Microservices?,Decoupling
+What is meant by 'Key to Microservices' in context of Understanding Microservices?,Key to Microservices: Essential for maintaining independence and achieving the benefits of
+What is meant by 'Database Relationship' in context of Diagram of an ecommerce application with functional areas implemented by microservices.?,Database Relationship
+What is meant by 'Service-Specific Databases' in context of Diagram of an ecommerce application with functional areas implemented by microservices.?,Service-Specific Databases: Each microservice has its own database tailored
+What is meant by 'Loose Coupling' in context of Diagram of an ecommerce application with functional areas implemented by microservices.?,Loose Coupling: This approach ensures loose coupling by routing data
+What is meant by 'Independent Data Management' in context of Diagram of an ecommerce application with functional areas implemented by microservices.?,Independent Data Management: Each service manages its data
+What is Enhanced Development and Maintenance?,"- Breaks application into smaller, manageable chunks. - Clear boundaries with defined APIs. - Quicker development, easier understanding and maintenance."
+What is Team Autonomy and Efficiency?,- Independent development of services by teams. - Full lifecycle ownership of services. - Flexibility to use different programming languages (Polyglot Development).
+What is Responsiveness?,- Independent scaling based on service needs. - Hardware optimization for resource requirements. - Faster product delivery and improved time to market.
+What is Complexity in Distributed Systems?,- Necessity of choosing and implementing inter-service communication mechanisms. - Managing partial failures and service unavailability.
+What is Services?,- Handling atomic operations across multiple microservices (Distributed Transactions). - Maintaining data consistency during failures (Consistency Issues).
+What is Testing and Deployment Complexities?,- Requirement for comprehensive testing across multiple services. - Complexities in managing multiple service deployments and service discovery.
+What is Operational Overhead?,- Increased need for monitoring and alerting across more services. - Higher risk of failure due to more points of service-to-service communication. - Challenges in productionizing and maintaining robust operations infrastructure.
+What is Considerations?,"- Potential latency issues due to network calls between services. - Not suitable for all types of applications, especially those requiring real-time data processing. - Importance of clear communication and service boundary planning."
+What is Assessing the Need for Migration?,- Evaluate if microservices align with business goals and pain points. - Consider simpler alternatives like autoscaling or enhanced testing.
+What is Starting the Migration Process?,"- Begin with extracting and deploying one service independently. - Adopt an iterative approach, learning and adapting with each service migration."
+What is Strategic Implementation?,- Recognize varying approaches to microservice size and quantity among teams. - Emphasize continuous learning and strategy refinement.
+What is Future Learning and Strategies?,- Explore strategies for detailed refactoring from monolithic to microservices. - Plan for ongoing education and adaptation of methods.
+What is meant by 'A framework that outlines how security responsibilities are divided ' in context of Shared Responsibility Model in Public Cloud?,A framework that outlines how security responsibilities are divided
+What is meant by 'Security and compliance is a shared responsibility between AWS and the ' in context of Shared Responsibility Model in Public Cloud?,Security and compliance is a shared responsibility between AWS and the
+"What is meant by 'Customer Responsibility' in context of Cloud."" CSP is in charge of the infrastructure, including hardware,?","Customer Responsibility: Termed ""Security in the Cloud."" Customers"
+What is meant by 'Service/ Delivery Models' in context of Key aspects of Shared Responsibility Model?,Service/ Delivery Models: Responsibilities vary depending on
+What is meant by 'IT Controls' in context of Key aspects of Shared Responsibility Model?,IT Controls: Shared management of IT controls between CSP and
+What is meant by 'Inherited Controls' in context of Control types in Shared Responsibility Model?,"Inherited Controls: Controls fully managed by CSP (e.g., physical and"
+What is meant by 'Shared Controls' in context of Control types in Shared Responsibility Model?,Shared Controls: Controls that apply to both CSP and customers but in
+What is meant by 'Patch Management – CSP is responsible for patching and fixing flaws within the ' in context of Control types in Shared Responsibility Model?,Patch Management – CSP is responsible for patching and fixing flaws within the
+What is meant by 'Configuration Management – CSP maintains the configuration of its infrastructure ' in context of Control types in Shared Responsibility Model?,Configuration Management – CSP maintains the configuration of its infrastructure
+"What is meant by 'Awareness & Training - CSP trains CSP’s employees, but a customer must train their ' in context of Control types in Shared Responsibility Model?","Awareness & Training - CSP trains CSP’s employees, but a customer must train their"
+What is meant by 'Customer Specific Controls' in context of Control types in Shared Responsibility Model?,"Customer Specific Controls: Controls solely managed by the customer,"
+What is meant by 'Application to Use Case' in context of Responsibility Model and its general application in cloud operations.?,Application to Use Case: Determine the model's relevance to their specific
+What is meant by 'Variability in Responsibility' in context of Responsibility Model and its general application in cloud operations.?,Variability in Responsibility: Customer responsibility changes based on:
+What is meant by 'How these services integrate into their IT environment.' in context of AWS region)?,How these services integrate into their IT environment.
+What is meant by 'Legal and Regulatory Considerations' in context of AWS region)?,Legal and Regulatory Considerations: Consideration of laws and regulations
+What is meant by 'Horizontal scaling' in context of Scalability in Cloud?,Horizontal scaling
+What is meant by 'The allocating or releasing of IT resources that are of the same type' in context of Scalability in Cloud?,The allocating or releasing of IT resources that are of the same type
+What is meant by 'Scaling in and out' in context of Scalability in Cloud?,Scaling in and out
+What is meant by 'Vertical scaling' in context of Scalability in Cloud?,Vertical scaling
+What is meant by 'Existing IT resource is replaced by another with higher or lower capacity' in context of Scalability in Cloud?,Existing IT resource is replaced by another with higher or lower capacity
+What is meant by 'Reactive scaling' in context of Suited for applications with fixed or known peaks.?,Reactive scaling
+"What is meant by 'Once something (e.g., workload) happen' in context of Suited for applications with fixed or known peaks.?","Once something (e.g., workload) happen"
+What is meant by 'Proactive scaling' in context of Suited for applications with fixed or known peaks.?,Proactive scaling
+What is meant by 'Rules' in context of Based on?,Rules
+What is meant by 'Spawn a new VM if ave. CPU util. > 80%' in context of Based on?,Spawn a new VM if ave. CPU util. > 80%
+What is meant by 'Models based on QoS/SLA targets' in context of Based on?,Models based on QoS/SLA targets
+What is Can cloud consumer guarantee the authentication of an interaction and no?,other party can deny or challenge that.
+What is In cloud the availability of cloud services can be a responsibility that is shared?,by the cloud provider and the cloud carrier. The availability of a cloud-based  solution that extends to cloud service consumers is further shared by the  cloud consumer.
+What is Non-trusted cloud service consumer without permissions in the cloud. Attempts attacks?,"from outside cloud permission boundary, mostly using public networks."
+What is Able to intercept and forward the network traffic that flows within a cloud. Then to?,maliciously use and augment the data.
+What is Shares IT resources in the same cloud environment as the cloud consumer and attempts?,to exploit legitimate credentials to target cloud providers and the cloud tenants.
+What is Human threat agents acting on behalf of or in relation to the cloud provider. Typically?,current or former employees or third parties with access to the cloud provider’s premises.
+What is Data transferred to or within a cloud is passively intercepted by a?,malicious service agent for information gathering purposes. •
+What is The workload on cloud services is artificially increased with imitation messages or?,repeated communication requests. •
+"What is Multiple cloud service requests are sent, each of which is designed to consume?",excessive memory and processing resources.
+What is Occurs when access is granted to an attacker erroneously or too broadly?,to IT resources that are normally protected. •
+What is Result of the attacker gaining direct access to IT resources that were implemented to?,be accessed by trusted consumer programs.
+What is Exploits vulnerabilities in the virtualization platform to jeopardize its?,"confidentiality, integrity, and/or availability."
+What is Secret key based encryption mechanisms to counter traffic?,"eavesdropping, malicious intermediary, insufficient authorization, and  overlapping trust boundaries security threats."
+"What is meant by 'private key is known only to its owner while the public key is commonly available' in context of Relies on the use of two different keys, private key and a public key?",private key is known only to its owner while the public key is commonly available
+What is meant by 'IAM encompasses controlling and tracking user identities and access in IT ' in context of Identity Access Management (IAM)?,IAM encompasses controlling and tracking user identities and access in IT
+What is meant by 'Authentication' in context of Identity Access Management (IAM)?,"Authentication: Manages credentials like usernames, passwords, digital signatures,"
+What is meant by 'Authorization' in context of Identity Access Management (IAM)?,Authorization: Defines access control levels and manages relationships between
+What is meant by 'User Management' in context of Identity Access Management (IAM)?,"User Management: Involves administrative tasks like creating user accounts,"
+What is meant by 'Credential Management' in context of Identity Access Management (IAM)?,Credential Management: Establishes and manages access rules for user accounts to
+What is meant by 'At the end of the lesson students ' in context of Lesson Objectives?,At the end of the lesson students
+What is meant by 'What is Machine Learning?' in context of Lesson Objectives?,What is Machine Learning?
+What is meant by 'Why Choose Machine Learning?' in context of Lesson Objectives?,Why Choose Machine Learning?
+What is meant by 'Optimization is the mathematical ' in context of Optimization??,Optimization is the mathematical
+"What is meant by '"" It is the science and ' in context of Intelligence?",""" It is the science and"
+What is meant by '“field of study that gives computers the ability to learn ' in context of What is Machine Learning?,“field of study that gives computers the ability to learn
+"What is meant by 'Machine learning is a subfield of artificial intelligence, ' in context of What is Machine Learning?","Machine learning is a subfield of artificial intelligence,"
+What is meant by '“A computer program is said to learn ' in context of Machine?,“A computer program is said to learn
+What is meant by 'Based on pre-defined Rules' in context of MYCIN?,Based on pre-defined Rules
+What is meant by 'Rules defined based on domain knowledge' in context of MYCIN?,Rules defined based on domain knowledge
+What is meant by 'Designed to mimic the decision-making ' in context of MYCIN?,Designed to mimic the decision-making
+What is meant by 'Breadth-First Search' in context of Search Algorithms?,Breadth-First Search
+What is meant by 'Depth First Search' in context of Search Algorithms?,Depth First Search
+What is meant by 'Iterative Deepening Search' in context of Search Algorithms?,Iterative Deepening Search
+What is meant by 'Uniform Cost Search' in context of Search Algorithms?,Uniform Cost Search
+What is meant by 'Evolutionary Algorithms are a family of nature-inspired ' in context of Evolutionary Algorithms?,Evolutionary Algorithms are a family of nature-inspired
+What is Initialize a population?,of potential solutions  randomly.
+What is Recombine (crossover)?,and mutate them to  create new individuals.
+What is A Genetic Algorithm (GA) is a search and?,optimization method inspired by how living  things evolve over time through natural  selection.  •
+"What is Inspired by: Collective behavior of decentralized, self-?","organized systems (e.g., birds, ants, fish)"
+What is meant by 'Inspired by ants finding shortest paths using ' in context of Ant Colony Optimization (ACO)?,Inspired by ants finding shortest paths using
+What is meant by 'Fireflies are attracted to brighter (better) ' in context of Firefly Algorithm (FA)?,Fireflies are attracted to brighter (better)
+What is meant by 'Learned under supervision.' in context of Supervised Learning Algorithms?,Learned under supervision.
+What is meant by 'Supervision of what?' in context of Supervised Learning Algorithms?,Supervision of what?
+What is meant by 'Humans?' in context of Supervised Learning Algorithms?,Humans?
+What is meant by 'Supervised by the Labeled data' in context of Supervised Learning Algorithms?,Supervised by the Labeled data
+"What is meant by 'Require labeled data. (Inputs, output)' in context of Supervised Learning Algorithms?","Require labeled data. (Inputs, output)"
+What is meant by 'Regression' in context of Types of Supervised Learning Models?,Regression
+What is meant by 'Predicting a Linear ' in context of Types of Supervised Learning Models?,Predicting a Linear
+What is meant by 'Linear Regression' in context of Types of Supervised Learning Models?,Linear Regression
+What is meant by 'SVR' in context of Types of Supervised Learning Models?,SVR
+What is meant by 'DT' in context of Types of Supervised Learning Models?,DT
+What is meant by 'Classification' in context of Types of Supervised Learning Models?,Classification
+What is meant by 'Predicting a ' in context of Types of Supervised Learning Models?,Predicting a
+What is meant by 'Logistic Regression' in context of Types of Supervised Learning Models?,Logistic Regression
+What is meant by 'SVM' in context of Types of Supervised Learning Models?,SVM
+What is meant by 'NB' in context of Types of Supervised Learning Models?,NB
+What is A Bank may have borrower details?,"(age, income, gender, etc.) of the  past (features)"
+What is Learns the relationship as a linear equation:?,y = mx + c. • What is learnt through training:
+What is meant by 'Example Use Cases' in context of Finds the best slope (m) and intercept (c) to?,Example Use Cases:
+What is meant by 'Predicting house prices' in context of Finds the best slope (m) and intercept (c) to?,Predicting house prices
+What is meant by 'Salary estimation' in context of Finds the best slope (m) and intercept (c) to?,Salary estimation
+What is meant by 'Sales forecasting' in context of Finds the best slope (m) and intercept (c) to?,Sales forecasting
+What is meant by 'Limitations' in context of Finds the best slope (m) and intercept (c) to?,Limitations:
+What is meant by 'Only works well when the relationship is linear' in context of Finds the best slope (m) and intercept (c) to?,Only works well when the relationship is linear
+"What is meant by 'Not suitable for complex, non-linear patterns' in context of Finds the best slope (m) and intercept (c) to?","Not suitable for complex, non-linear patterns"
+What is meant by 'Clustering Algorithms' in context of Learning Algorithms?,Clustering Algorithms
+What is meant by 'K Means' in context of Learning Algorithms?,K Means
+What is meant by 'DBSCAN' in context of Learning Algorithms?,DBSCAN
+What is meant by 'Dimensionality Reduction Algorithms' in context of Learning Algorithms?,Dimensionality Reduction Algorithms
+What is meant by 'PCA' in context of Learning Algorithms?,PCA
+What is meant by 'MDS (Multidimensional Scaling)' in context of Learning Algorithms?,MDS (Multidimensional Scaling)
+What is meant by 'LDA (Linear Discriminant Analysis)' in context of Learning Algorithms?,LDA (Linear Discriminant Analysis)
+"What is Algorithms - Self Training, Generative models?","•Semi-Supervised Support Vector Machines, etc."
+What is meant by 'Generative Adversarial Networks' in context of Algorithms?,Generative Adversarial Networks
+What is meant by 'Auto-encoders' in context of Algorithms?,Auto-encoders
+"What is meant by 'Often, multiple classifiers need to be combined to ' in context of Ensemble Learning?","Often, multiple classifiers need to be combined to"
+What is Learns by interacting with an environment and?,receiving feedback (rewards or penalties). •
+What is Uses trial-and-error and reward maximization to?,improve decision-making over time. •
+What is Can use reinforcement learning where achieving the?,goal/getting closer to the goal gives a positive reward.
+What is Not all models are created?,equal — and neither are the  ways we evaluate them.
+"What is meant by 'If there’s an algorithmic way instead of ML, use it!!! (ML is' in context of Algorithm?","If there’s an algorithmic way instead of ML, use it!!! (ML is"
+What is meant by 'Refer the literature!!!' in context of Algorithm?,Refer the literature!!!
+What is meant by 'Try different ML algorithms (no single algorithm is the best)' in context of Algorithm?,Try different ML algorithms (no single algorithm is the best)
+What is meant by 'Check the dataset against the usage/strength of each algorithm ' in context of Algorithm?,Check the dataset against the usage/strength of each algorithm
+"What is meant by 'Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you' in context of Algorithm?","Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you"
+What is meant by 'Test your algorithm(s) with test data and select the best ' in context of Algorithm?,Test your algorithm(s) with test data and select the best
+What is meant by 'No algorithm will be perfect! (There will be an error. The ' in context of Algorithm?,No algorithm will be perfect! (There will be an error. The
+What is meant by 'Scikit-learn - Python (Anaconda Python Distribution)' in context of Popular Frameworks/Tools?,Scikit-learn - Python (Anaconda Python Distribution)
+What is meant by 'R (R studio)' in context of Popular Frameworks/Tools?,R (R studio)
+What is meant by 'Matlab/Octave (can export DLLs)' in context of Popular Frameworks/Tools?,Matlab/Octave (can export DLLs)
+What is meant by 'Weka (Java based)' in context of Popular Frameworks/Tools?,Weka (Java based)
+What is meant by 'Java OpenNLP/Python NLTK (Natural language processing' in context of Popular Frameworks/Tools?,Java OpenNLP/Python NLTK (Natural language processing
+What is meant by 'Apache Spark (part of the Apache Hadoop platform)' in context of Popular Frameworks/Tools?,Apache Spark (part of the Apache Hadoop platform)
+What is meant by 'Google Tensorflow (Python library for Deep neural ' in context of Popular Frameworks/Tools?,Google Tensorflow (Python library for Deep neural
+What is meant by 'Apache Keras (Python library of neural networks)' in context of Popular Frameworks/Tools?,Apache Keras (Python library of neural networks)
+What is meant by 'Theano (Python library for Multicore processing of DNNs)' in context of Popular Frameworks/Tools?,Theano (Python library for Multicore processing of DNNs)
+What is meant by 'Amazon AWS Services/Microsoft Azure ML (Cloud based ' in context of Popular Frameworks/Tools?,Amazon AWS Services/Microsoft Azure ML (Cloud based
+What is meant by 'AI is a vast discipline with many ' in context of Summary?,AI is a vast discipline with many
+What is meant by 'AI attempts to give machine the ' in context of Summary?,AI attempts to give machine the
+"What is meant by 'Container orchestration automates the deployment, management, ' in context of Container orchestration?","Container orchestration automates the deployment, management,"
+What is meant by 'Container orchestration can be used in any environment where you ' in context of Container orchestration?,Container orchestration can be used in any environment where you
+What is meant by '“Kubernetes (k8s) is an open source platform for automating ' in context of What is Kubernetes??,“Kubernetes (k8s) is an open source platform for automating
+What is meant by 'Project that was created by Google as an open source container ' in context of What is Kubernetes??,Project that was created by Google as an open source container
+What is meant by 'It was donated to CNCF (Cloud Native Computing Foundation) who ' in context of What is Kubernetes??,It was donated to CNCF (Cloud Native Computing Foundation) who
+What is K8s itself follows a client-?,server architecture with  a master and worker  nodes. <Worker Node 1> <docker> <Master Node> CLI <kubectl>
+What is meant by 'etcd works as backend for service discovery ' in context of API server contains various methods to?,etcd works as backend for service discovery
+What is meant by 'Pods ' in context of E.g. docker container?,Pods
+What is meant by 'the way of running containers in Kubernetes ' in context of E.g. docker container?,the way of running containers in Kubernetes
+What is meant by 'basic deployable and scaling unit ' in context of E.g. docker container?,basic deployable and scaling unit
+What is meant by 'defines one or more containers ' in context of E.g. docker container?,defines one or more containers
+What is meant by 'containers are co-located on a node ' in context of E.g. docker container?,containers are co-located on a node
+What is meant by 'flat network structure ' in context of E.g. docker container?,flat network structure
+What is meant by 'Nodes' in context of E.g. docker container?,Nodes:
+What is meant by 'physical worker machines ' in context of E.g. docker container?,physical worker machines
+What is meant by 'can run multiple pods ' in context of E.g. docker container?,can run multiple pods
+What is meant by 'pods running within single node don’t know about each other' in context of E.g. docker container?,pods running within single node don’t know about each other
+What is meant by 'Minikube' in context of E.g. docker container?,Minikube:
+What is meant by 'single node cluster ' in context of E.g. docker container?,single node cluster
+What is meant by 'running in a VM ' in context of E.g. docker container?,running in a VM
+"What is meant by 'supports linux, windows and ' in context of E.g. docker container?","supports linux, windows and"
+What is meant by 'Docker Desktop with built-in ' in context of Running things locally?,Docker Desktop with built-in
+What is meant by 'single node cluster ' in context of Running things locally?,single node cluster
+What is meant by 'running in a VM ' in context of Running things locally?,running in a VM
+What is meant by 'windows and macOS ' in context of Running things locally?,windows and macOS
+What is meant by 'drag & drop installation ' in context of Running things locally?,drag & drop installation
+What is meant by 'bound to specific kubernetes ' in context of Running things locally?,bound to specific kubernetes
+What is meant by 'kind' in context of Running things locally?,kind:
+What is meant by 'Create resource from file - kubectl create -f resource_file.yml ' in context of Managing cluster resources?,Create resource from file - kubectl create -f resource_file.yml
+What is meant by 'Change existing (or create) resource based on file - kubectl apply -f ' in context of Managing cluster resources?,Change existing (or create) resource based on file - kubectl apply -f
+What is meant by 'Delete existing resource - kubectl delete resource_type ' in context of Managing cluster resources?,Delete existing resource - kubectl delete resource_type
+What is meant by 'List resources of type - kubectl get resource_type ' in context of Managing cluster resources?,List resources of type - kubectl get resource_type
+What is meant by 'Edit resource on the server - kubectl edit resource_type ' in context of Managing cluster resources?,Edit resource on the server - kubectl edit resource_type
+What is meant by 'Execute command on the container - kubectl exec [-it] pod_name ' in context of Debugging cluster resources?,Execute command on the container - kubectl exec [-it] pod_name
+What is meant by 'Get container logs - kubectl logs pod_name [-c container_name]' in context of Debugging cluster resources?,Get container logs - kubectl logs pod_name [-c container_name]
+What is meant by 'Forward port from a pod - kubectl port-forward pod_name ' in context of Debugging cluster resources?,Forward port from a pod - kubectl port-forward pod_name
+What is meant by 'Print detailed description of a resource - kubectl describe ' in context of Debugging cluster resources?,Print detailed description of a resource - kubectl describe
+What is meant by 'Replica Sets - Ensures desired number of pods exist by' in context of Few resource objects in K8s?,Replica Sets - Ensures desired number of pods exist by: scaling up or
+What is meant by 'Deployment' in context of Few resource objects in K8s?,Deployment
+What is meant by 'A Deployment provides declarative updates for Pods and ReplicaSets. You ' in context of Few resource objects in K8s?,A Deployment provides declarative updates for Pods and ReplicaSets. You
+What is meant by 'Service' in context of Deployment Controller changes the actual state to the desired state at a?,Service
+What is meant by 'A method for exposing a network application that is running as one or ' in context of Deployment Controller changes the actual state to the desired state at a?,A method for exposing a network application that is running as one or
+What is meant by 'Ingress - An Ingress is a Kubernetes object that sits in front of ' in context of Few resource objects in K8s?,Ingress - An Ingress is a Kubernetes object that sits in front of
+What is meant by 'Defining a Pod' in context of Demo?,Defining a Pod
+What is meant by 'Creating a ReplicaSet' in context of Demo?,Creating a ReplicaSet
+What is meant by 'Creating a Deployment' in context of Demo?,Creating a Deployment
+What is I want to be able to?,"deploy and share my app  everywhere consistently,  and manage it as a single  entity regardless of the  different parts."
+What is meant by 'Let’s see what it takes to deploy an app on a running Kubernetes cluster' in context of Deploying an App – kubectl Way?,Let’s see what it takes to deploy an app on a running Kubernetes cluster
+What is meant by 'There will be lot’s of YAML Kubernetes manifest files' in context of Deploying an App – kubectl Way?,There will be lot’s of YAML Kubernetes manifest files
+What is meant by 'Ex' in context of Deploying an App – kubectl Way?,Ex:-
+What is meant by 'Application deployment and service configuration' in context of Deploying an App – kubectl Way?,Application deployment and service configuration
+What is meant by 'Redis master deployment and service configuration' in context of Deploying an App – kubectl Way?,Redis master deployment and service configuration
+What is meant by 'Redis slaves deployment and service configuration' in context of Deploying an App – kubectl Way?,Redis slaves deployment and service configuration
+"What is meant by 'Using the Kubernetes client, kubectl' in context of Deploying an App – kubectl Way?","Using the Kubernetes client, kubectl"
+What is meant by 'Create Deployment' in context of Deploying an App – kubectl Way?,Create Deployment
+What is meant by 'CI/CD pipeline' in context of Deploying an App – kubectl Way – Pain Points?,CI/CD pipeline
+"What is meant by 'kubectl deployments are not easy to configure, update and rollback ' in context of Deploying an App – kubectl Way – Pain Points?","kubectl deployments are not easy to configure, update and rollback"
+What is meant by 'Deploying app to dev/test/production may require different configuration' in context of Deploying an App – kubectl Way – Pain Points?,Deploying app to dev/test/production may require different configuration
+What is meant by 'Update deployment e.g. update with a new image' in context of Deploying an App – kubectl Way – Pain Points?,Update deployment e.g. update with a new image
+What is meant by 'Change the configuration based on certain conditions ' in context of Deploying an App – kubectl Way – Pain Points?,Change the configuration based on certain conditions
+What is meant by 'A different serviceType is needed in different environments (e.g. NodePort/LoadBalancer)  ' in context of Deploying an App – kubectl Way – Pain Points?,A different serviceType is needed in different environments (e.g. NodePort/LoadBalancer)
+What is meant by 'Need for rollback ' in context of Deploying an App – kubectl Way – Pain Points?,Need for rollback
+What is meant by 'Need of having multiple deployments (e.g. multiple Redis deployments) ' in context of Deploying an App – kubectl Way – Pain Points?,Need of having multiple deployments (e.g. multiple Redis deployments)
+What is meant by 'Requires to track your deployment and modify YAML files (can be error prone)' in context of Deploying an App – kubectl Way – Pain Points?,Requires to track your deployment and modify YAML files (can be error prone)
+What is meant by 'Does not allow multiple deployments without updating metadata in manifest files' in context of Deploying an App – kubectl Way – Pain Points?,Does not allow multiple deployments without updating metadata in manifest files
+"What is meant by 'Share your deployment configurations with your friend, team or customer?' in context of Deploying an App – kubectl Way – Pain Points?","Share your deployment configurations with your friend, team or customer?"
+What is meant by 'You need to share many files and related dependencies ' in context of Deploying an App – kubectl Way – Pain Points?,You need to share many files and related dependencies
+What is meant by 'Deploying an app – Helm Way ' in context of Here Comes Helm?,Deploying an app – Helm Way
+What is meant by 'No expertise of Kubernetes deployment needed as Helm hides Kubernetes domain complexities ' in context of Here Comes Helm?,No expertise of Kubernetes deployment needed as Helm hides Kubernetes domain complexities
+What is meant by 'Helm packages all dependencies ' in context of Here Comes Helm?,Helm packages all dependencies
+What is meant by 'Helm tracks deployment making it easy to update and rollback' in context of Here Comes Helm?,Helm tracks deployment making it easy to update and rollback
+What is meant by 'Same workload can be deployed multiple times' in context of Here Comes Helm?,Same workload can be deployed multiple times
+What is meant by 'Helm allows assigning workload release names at runtime' in context of Here Comes Helm?,Helm allows assigning workload release names at runtime
+"What is meant by 'A tool or package manager for the Kubernetes, for deployment and ' in context of Kubernetes applications?","A tool or package manager for the Kubernetes, for deployment and"
+What is meant by 'Helm became a CNCF project in mid 2018' in context of Kubernetes applications?,Helm became a CNCF project in mid 2018
+What is meant by 'It uses a packaging format called charts' in context of Kubernetes applications?,It uses a packaging format called charts
+What is meant by 'A chart is a collection of files that describe Kubernetes resources' in context of Kubernetes applications?,A chart is a collection of files that describe Kubernetes resources
+What is meant by 'Think of Helm like apt/yum/homebrew for Kubernetes' in context of Kubernetes applications?,Think of Helm like apt/yum/homebrew for Kubernetes
+What is Windows?,"• Run Helm anywhere e.g. laptop, CI/CD etc."
+What is meant by 'A fully fledged system package manager' in context of What Helm is NOT?,A fully fledged system package manager
+"What is meant by 'A configuration management tool like Chef, ' in context of What Helm is NOT?","A configuration management tool like Chef,"
+What is meant by 'helm repo add helm101 https' in context of Add repo?,helm repo add helm101 https://ibm.github.io/helm101/
+What is meant by 'helm repo list' in context of Verify that helm101/guestbook is now in your repo?,helm repo list
+What is meant by 'helm search helm101' in context of Verify that helm101/guestbook is now in your repo?,helm search helm101
+What is meant by 'helm install helm101/guestbook --name myguestbook --set service.type=NodePort – follow the ' in context of Install?,helm install helm101/guestbook --name myguestbook --set service.type=NodePort – follow the
+What is meant by 'Verify that your guestbook chart is installed' in context of Install?,Verify that your guestbook chart is installed
+What is meant by 'helm ls' in context of Install?,helm ls
+What is meant by 'Check chart release history' in context of Install?,Check chart release history
+What is meant by 'First let’s see what we have' in context of Demo – Guestbook Upgrades and Rollback?,First let’s see what we have
+What is meant by 'helm history myguestbook' in context of Demo – Guestbook Upgrades and Rollback?,helm history myguestbook
+What is meant by 'Upgrade ' in context of Demo – Guestbook Upgrades and Rollback?,Upgrade
+What is meant by 'helm upgrade myguestbook helm101/guestbook' in context of Demo – Guestbook Upgrades and Rollback?,helm upgrade myguestbook helm101/guestbook
+What is meant by 'Rollback' in context of Demo – Guestbook Upgrades and Rollback?,Rollback
+What is meant by 'helm rollback myguestbook 1' in context of Demo – Guestbook Upgrades and Rollback?,helm rollback myguestbook 1
+What is meant by 'helm delete --purge myguestbook' in context of Remove chart completely?,helm delete --purge myguestbook
+What is Another Demo!!!?,https://github.com/rav94/devops-in-practice
+What is meant by 'The GitOps agent is monitoring one or more Git repositories that define ' in context of A GitOps agent is deployed on the cluster.?,The GitOps agent is monitoring one or more Git repositories that define
+What is meant by 'Once a Git commit happens the GitOps agent is instructing the cluster to ' in context of Kustomize files).?,Once a Git commit happens the GitOps agent is instructing the cluster to
+"What is meant by 'Developers, operators. and other stakeholders perform all changes via Git ' in context of Kustomize files).?","Developers, operators. and other stakeholders perform all changes via Git"
+What is Traditional deployment without GitOps:?,"1 - A developer commits source code for the application. 2 - A CI system builds the application and may also perform additional  actions such as unit tests, security scans, static checks, etc. 3 - The container image is stored in a Container registry. 4 - The CI platform (or other external system) with direct access to the"
+What is Kubernetes cluster creates a deployment using a variation of the?,“kubectl apply” command. 5 - The application is deployed on the cluster. • The cluster state is manually decided by kubectl commands or other
+What is The first steps are the same.?,"1 - A developer commits source code for the application and the CI system creates a container image that is  pushed to a registry. 2 - Nobody has direct access to the Kubernetes cluster.  3 - There is a second Git repository that has all manifests that define the application. 4 - Another human or an automated system changes the manifests in this second Git repository. 5 - A GitOps controller that is running inside the cluster is monitoring the Git repository and as soon as a  change is made, it changes the cluster state to match what is described in Git."
+What is meant by 'The state of the cluster is always described in Git. Git holds everything ' in context of The key points here are:?,The state of the cluster is always described in Git. Git holds everything
+What is meant by 'There is no external deployment/CI system with full access to the ' in context of The key points here are:?,There is no external deployment/CI system with full access to the
+What is meant by 'The GitOps controller is running in a constant loop and always ' in context of The key points here are:?,The GitOps controller is running in a constant loop and always
+What is meant by 'Anti-Corruption Layer (ACL) pattern' in context of Microservices?,Anti-Corruption Layer (ACL) pattern
+What is meant by 'Allows gradual translation from monoliths to microservices ' in context of Anti-Corruption Layer (ACL) pattern?,Allows gradual translation from monoliths to microservices
+What is meant by 'Allows legacy systems to communicate with modern services without ' in context of Anti-Corruption Layer (ACL) pattern?,Allows legacy systems to communicate with modern services without
+What is meant by 'Goal of ACLs is to minimize changes to existing functionality in ' in context of Anti-Corruption Layer (ACL) pattern?,Goal of ACLs is to minimize changes to existing functionality in
+"What is meant by 'Acts as an adapter or facade, converting calls to the new interface.' in context of Anti-Corruption Layer (ACL) pattern?","Acts as an adapter or facade, converting calls to the new interface."
+What is meant by 'ACL is also consumed as a part of Strangler-Fig pattern which we are ' in context of Anti-Corruption Layer (ACL) pattern?,ACL is also consumed as a part of Strangler-Fig pattern which we are
+What is meant by 'Helps migrating a monolithic application to a microservices ' in context of Strangler fig Pattern?,Helps migrating a monolithic application to a microservices
+What is meant by 'Migrating a monolithic application to microservices based one ' in context of Strangler fig Pattern?,Migrating a monolithic application to microservices based one
+What is meant by 'Hence Strangler fig patterns allows teams to focus on doing this ' in context of Strangler fig Pattern?,Hence Strangler fig patterns allows teams to focus on doing this
+What is meant by 'Identify Replaceable Components' in context of Process Involved in Strangler fig?,Identify Replaceable Components: Start with parts of the system that
+What is meant by 'Build New Features as Services' in context of Process Involved in Strangler fig?,Build New Features as Services: Develop new functionalities as
+What is meant by 'Reroute Traffic' in context of Process Involved in Strangler fig?,Reroute Traffic: Gradually reroute user traffic from the old system to
+"What is A monolithic application has three services: user service, cart service,?","and account service. The cart service depends on the user service,  and the application uses a monolithic relational database. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+What is First step is to add a proxy layer between the storefront UI and the?,"monolithic application. At the start, the proxy routes all traffic to the  monolithic application. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+What is New services are implemented as microservices instead of adding?,"features to the existing monolith. However, you continue to fix bugs in  the monolith to ensure application stability. The proxy layer routes  the calls to the monolith or to the new microservice based on the API"
+What is URL.?,https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html
+"What is During the migration process, when the features within the monolith?","need to call the features that were migrated as microservices, the ACL  converts the calls to the new interface and routes them to the  appropriate microservice. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+"What is Data synchronization is crucial when downstream services, rely on a monolithic architecture, use?","data from a microservice. In this scenario, a User microservice, which has its own data layer,  requires synchronization with the monolith. To facilitate this, a synchronization agent can be  introduced. Update events from the microservice's database are sent to a queue. The agent then  reads these events from the queue and synchronizes them with the monolithic database,  ensuring eventual data consistency between the microservice and the monolith. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+What is Once all interdependent components have been fully migrated to?,"microservices, it becomes feasible to refactor the code to eliminate  the Anti-Corruption Layer (ACL) components. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+What is The final strangled state where all services have been migrated out of?,the monolith and only the skeleton of the monolith remains.
+What is Historical data can be migrated to data stores owned by individual?,"services. The ACL can be removed, and the monolith is ready to be  decommissioned at this stage. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+What is The final architecture after the monolithic application has been?,decommissioned. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html
+"What is In a distributed transaction, multiple services can be called before a transaction is?","completed. When the services store data in different data stores, it can be challenging to  maintain data consistency across these data stores."
+What is meant by 'Manages Distributed Transactions Across Multiple Microservices and Databases.' in context of Saga Pattern - A saga consists of a sequence of local transactions. Each local transaction in a saga?,Manages Distributed Transactions Across Multiple Microservices and Databases.
+What is meant by 'Breaks Down a Transaction into a Series of Local Transactions for Each Service.' in context of Saga Pattern - A saga consists of a sequence of local transactions. Each local transaction in a saga?,Breaks Down a Transaction into a Series of Local Transactions for Each Service.
+"What is meant by 'Addresses the challenge of maintaining atomicity, consistency, isolation, and durability in ' in context of Saga Pattern - A saga consists of a sequence of local transactions. Each local transaction in a saga?","Addresses the challenge of maintaining atomicity, consistency, isolation, and durability in"
+What is meant by 'Utilizes Compensating Transactions or Actions in Case of Local Transaction Failures.' in context of Saga Pattern - A saga consists of a sequence of local transactions. Each local transaction in a saga?,Utilizes Compensating Transactions or Actions in Case of Local Transaction Failures.
+What is meant by 'Avoids Using Two-Phase Commit Protocols for Transaction Management.' in context of Saga Pattern - A saga consists of a sequence of local transactions. Each local transaction in a saga?,Avoids Using Two-Phase Commit Protocols for Transaction Management.
+What is meant by 'Ensures data integrity in distributed transactions across multiple ' in context of Saga Choreography?,Ensures data integrity in distributed transactions across multiple
+What is meant by 'Depends on the events published by the microservices.' in context of Saga Choreography?,Depends on the events published by the microservices.
+What is meant by 'The saga participants (microservices) subscribe to the events and act ' in context of Saga Choreography?,The saga participants (microservices) subscribe to the events and act
+What is meant by 'Your system requires data integrity and consistency in distributed transactions that span multiple data ' in context of Use the saga choreography pattern when:?,Your system requires data integrity and consistency in distributed transactions that span multiple data
+"What is meant by 'The data store (for example, a NoSQL database) doesn't provide 2PC to provide ACID transactions, you need ' in context of Use the saga choreography pattern when:?","The data store (for example, a NoSQL database) doesn't provide 2PC to provide ACID transactions, you need"
+What is meant by 'A central controlling process that manages the participant transactions might become a single point of ' in context of Use the saga choreography pattern when:?,A central controlling process that manages the participant transactions might become a single point of
+What is meant by 'When there are small number of participants (microservices) involved.' in context of Use the saga choreography pattern when:?,When there are small number of participants (microservices) involved.
+What is meant by 'The saga participants are independent services and need to be loosely coupled.' in context of Use the saga choreography pattern when:?,The saga participants are independent services and need to be loosely coupled.
+What is meant by 'Uses a central coordinator (orchestrator) to help preserve data ' in context of Saga Orchestrator?,Uses a central coordinator (orchestrator) to help preserve data
+What is meant by 'Orchestrator sends messages to to participant microservices to ' in context of Orchestrator is aware of all the steps required for transaction.?,Orchestrator sends messages to to participant microservices to
+What is meant by 'Orchestrator acts as the decision maker and determines the next ' in context of Orchestrator is aware of all the steps required for transaction.?,Orchestrator acts as the decision maker and determines the next
+What is meant by 'Your system requires data integrity and consistency in distributed transactions that span multiple data stores.' in context of Use the saga orchestration pattern when:?,Your system requires data integrity and consistency in distributed transactions that span multiple data stores.
+"What is meant by 'The data store doesn't provide 2PC to provide ACID transactions, and implementing 2PC within the application ' in context of Use the saga orchestration pattern when:?","The data store doesn't provide 2PC to provide ACID transactions, and implementing 2PC within the application"
+"What is meant by 'You have NoSQL databases, which do not provide ACID transactions, and you need to update multiple tables ' in context of Use the saga orchestration pattern when:?","You have NoSQL databases, which do not provide ACID transactions, and you need to update multiple tables"
+What is meant by 'Your system has many saga participants (microservices) involved and loose coupling between participants are ' in context of Use the saga orchestration pattern when:?,Your system has many saga participants (microservices) involved and loose coupling between participants are
+What is meant by 'Traffic Management with Ingress' in context of Developing and deploying Microservices with?,Traffic Management with Ingress:
+What is meant by 'Using Namespaces for Organization' in context of Kubernetes also supports manual scaling for handling varying loads effectively.?,Using Namespaces for Organization:
+What is meant by 'Implementing Health Checks' in context of Grouping related services in the same namespace simplifies management and applies policies at the namespace level.?,Implementing Health Checks:
+What is meant by 'Service Mesh for Advanced Traffic Management' in context of Health checks allow Kubernetes to replace non-functioning pods automatically.?,Service Mesh for Advanced Traffic Management:
+"What is meant by 'Single Responsibility Principle for Microservices' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Single Responsibility Principle for Microservices:
+"What is meant by 'Design each microservice with a single responsibility for easier scaling, monitoring, and management.' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?","Design each microservice with a single responsibility for easier scaling, monitoring, and management."
+"What is meant by 'Tailor scaling policies, resource quotas, and security configurations to the specific needs of each service.' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?","Tailor scaling policies, resource quotas, and security configurations to the specific needs of each service."
+"What is meant by 'Continuous Delivery/Deployment (CD)' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Continuous Delivery/Deployment (CD):
+"What is meant by 'Utilizing Kubernetes Deployment objects for a declarative management of microservices.' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Utilizing Kubernetes Deployment objects for a declarative management of microservices.
+"What is meant by 'Implement rolling updates for gradual change rollout and use tools like Argo Rollouts for more reliable rollback and ' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Implement rolling updates for gradual change rollout and use tools like Argo Rollouts for more reliable rollback and
+"What is meant by 'Monitoring and Debugging' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Monitoring and Debugging:
+"What is meant by 'Collect and visualize metrics using tools like Prometheus and Grafana.' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Collect and visualize metrics using tools like Prometheus and Grafana.
+What is meant by 'They were inspired by the Biological Neural Networks ' in context of Biological Inspiration?,They were inspired by the Biological Neural Networks
+What is meant by 'Functionality is very similar' in context of Biological Inspiration?,Functionality is very similar
+What is meant by 'Let us take a real-world example' in context of Mathematical Intuition?,Let us take a real-world example:
+What is meant by 'You go on shopping for a new Laptop. What are the ' in context of Mathematical Intuition?,You go on shopping for a new Laptop. What are the
+What is meant by 'The Price (𝑥𝑃)' in context of Mathematical Intuition?,The Price (𝑥𝑃)
+What is meant by 'Is it better than the Current Phone. (𝑥𝑏)' in context of Mathematical Intuition?,Is it better than the Current Phone. (𝑥𝑏)
+What is meant by 'Is the merchant reliable. (𝑥𝑟)' in context of Mathematical Intuition?,Is the merchant reliable. (𝑥𝑟)
+What is meant by 'How do we make the Decision?' in context of Mathematical Intuition?,How do we make the Decision?
+What is meant by 'If y > 5 ➔ buy' in context of It’s Decision-Making Time?,If y > 5 ➔ buy
+What is meant by 'If y > 5 ➔ buy' in context of Contribution of the Weights on the Decision?,If y > 5 ➔ buy
+What is meant by 'If y<= ➔ Do not buy ' in context of Contribution of the Weights on the Decision?,If y<= ➔ Do not buy
+What is meant by 'W1?' in context of Contribution of the Weights on the Decision?,W1?
+What is meant by 'W2?' in context of Contribution of the Weights on the Decision?,W2?
+What is meant by 'If y >= t ➔ buy(1)' in context of Merchant?,If y >= t ➔ buy(1)
+What is meant by 'If y< t ➔ Do not buy (0)' in context of Merchant?,If y< t ➔ Do not buy (0)
+What is meant by 'W1?' in context of Merchant?,W1?
+What is meant by 'W2?' in context of Merchant?,W2?
+What is meant by 'Its easier to compute with vectors' in context of Generalizing the Decision Statement?,Its easier to compute with vectors
+What is meant by 'Multiple inputs' in context of A Perceptron?,Multiple inputs
+What is meant by 'Corresponding weights' in context of A Perceptron?,Corresponding weights
+What is meant by 'Bias' in context of A Perceptron?,Bias
+What is meant by 'A Collection of Perceptron' in context of What is a Neural Network?,A Collection of Perceptron
+What is meant by 'A Layer can be made by stacking a set of Perceptron ' in context of What is a Neural Network?,A Layer can be made by stacking a set of Perceptron
+What is meant by 'A network is a set of layers that are arranged in a' in context of What is a Neural Network?,A network is a set of layers that are arranged in a
+What is meant by 'Bias = -Threshold value' in context of More on Bias?,Bias = -Threshold value
+What is meant by 'Output of a Perceptron is binary' in context of Activation Function?,Output of a Perceptron is binary
+What is meant by 'This may not work all the time' in context of Activation Function?,This may not work all the time
+What is meant by 'Linear output can be useful but will make it difficult to ' in context of Activation Function?,Linear output can be useful but will make it difficult to
+"What is meant by 'Any Function can be used as an Activation function if,' in context of How to Choose an Activation Function?","Any Function can be used as an Activation function if,"
+What is meant by 'The function is continuous and differentiable everywhere ' in context of How to Choose an Activation Function?,The function is continuous and differentiable everywhere
+"What is meant by 'The derivative of the function does not saturate (i.e., ' in context of How to Choose an Activation Function?","The derivative of the function does not saturate (i.e.,"
+"What is meant by 'The derivative does not explode (i.e., become very large, ' in context of How to Choose an Activation Function?","The derivative does not explode (i.e., become very large,"
+What is meant by 'Most used type of ANN' in context of Feed Forward Networks?,Most used type of ANN
+What is meant by 'Signal Flow is uni-directional' in context of Feed Forward Networks?,Signal Flow is uni-directional
+What is meant by 'No signal loops.' in context of Feed Forward Networks?,No signal loops.
+What is meant by 'MLP' in context of Feed Forward Networks?,MLP
+What is meant by 'A measure of how well the network at Predicting the ' in context of Loss Function (Cost)?,A measure of how well the network at Predicting the
+What is meant by 'Notion of Learning is based on the Loss Function' in context of Loss Function (Cost)?,Notion of Learning is based on the Loss Function
+What is meant by 'Goal of the Network is to find the w and b values such ' in context of Loss Function (Cost)?,Goal of the Network is to find the w and b values such
+What is meant by 'Mean Squared Error' in context of Different Loss Functions?,Mean Squared Error
+What is meant by 'Stacking multiple Nerons to for a layer' in context of Building Complete Neural Networks?,Stacking multiple Nerons to for a layer
+What is Implement backpropagation to compute partial?,derivatives    𝜕 𝐸 𝑡𝑜𝑡𝑎𝑙 𝜕𝑤𝑙 𝑗𝑘 5.
+What is Use Gradient descent or any other optimization technique?,to update the weights to minimize Etotal 6.    Repeat this process over multiple iterations (epochs)   until the error converges
+What is meant by 'MLP is a type of neural network that consists of ' in context of Multi-Layer Perceptron?,MLP is a type of neural network that consists of
+What is meant by 'Each neuron in the hidden layers uses an activation ' in context of Multi-Layer Perceptron?,Each neuron in the hidden layers uses an activation
+"What is meant by 'MLP is a feedforward network, which means that ' in context of Multi-Layer Perceptron?","MLP is a feedforward network, which means that"
+"What is meant by 'MLP can be used for a variety of tasks, including ' in context of Applications of MLP?","MLP can be used for a variety of tasks, including"
+"What is meant by 'MLP has been used for image classification, speech ' in context of Applications of MLP?","MLP has been used for image classification, speech"
+What is meant by 'MLP is particularly useful for tasks where there are ' in context of Applications of MLP?,MLP is particularly useful for tasks where there are
+What is meant by 'CNN is a type of neural network that is particularly ' in context of Convolutional Neural Networks?,CNN is a type of neural network that is particularly
+What is meant by 'CNN uses convolutional layers to extract features ' in context of Convolutional Neural Networks?,CNN uses convolutional layers to extract features
+What is meant by 'The output from the convolutional layers is then ' in context of Convolutional Neural Networks?,The output from the convolutional layers is then
+What is meant by 'CNN has been used for a variety of image and video ' in context of Applications of CNN?,CNN has been used for a variety of image and video
+What is meant by 'CNN has also been used in natural language ' in context of Applications of CNN?,CNN has also been used in natural language
+What is meant by 'CNN is particularly useful for tasks where the input ' in context of Applications of CNN?,CNN is particularly useful for tasks where the input
+What is meant by 'RNN is a type of neural network that is particularly ' in context of Recurrent Neural Networks?,RNN is a type of neural network that is particularly
+What is meant by 'RNN uses feedback connections to allow information ' in context of Recurrent Neural Networks?,RNN uses feedback connections to allow information
+What is meant by 'RNN can be trained using backpropagation through ' in context of Recurrent Neural Networks?,RNN can be trained using backpropagation through
+What is meant by 'RNN has been used for a variety of sequence data ' in context of Applications of RNN?,RNN has been used for a variety of sequence data
+What is meant by 'RNN can also be used for time-series forecasting' in context of Applications of RNN?,RNN can also be used for time-series forecasting
+What is meant by 'RNN is particularly useful for tasks where the output ' in context of Applications of RNN?,RNN is particularly useful for tasks where the output
+What is meant by 'GAN is a type of neural network that is used for ' in context of Generative Adversarial Neural Networks?,GAN is a type of neural network that is used for
+What is meant by 'GAN consists of two neural networks' in context of Generative Adversarial Neural Networks?,GAN consists of two neural networks: a generator
+"What is meant by 'The generator network generates new data samples, ' in context of Generative Adversarial Neural Networks?","The generator network generates new data samples,"
+"What is meant by 'GAN has been used for a variety of generative tasks, ' in context of Applications of GAN?","GAN has been used for a variety of generative tasks,"
+"What is meant by 'GAN can also be used for data augmentation, where it ' in context of Applications of GAN?","GAN can also be used for data augmentation, where it"
+What is meant by 'GAN is particularly useful for tasks where the output ' in context of Applications of GAN?,GAN is particularly useful for tasks where the output
+What is meant by 'Transformers are a type of neural network ' in context of Transformers?,Transformers are a type of neural network
+What is meant by 'Transformers are based on a self-attention ' in context of Transformers?,Transformers are based on a self-attention
+"What is meant by 'Unlike RNNs, Transformers can process the entire ' in context of Transformers?","Unlike RNNs, Transformers can process the entire"
+What is meant by 'Transformers have been used for a variety of natural ' in context of Applications of Tranformers?,Transformers have been used for a variety of natural
+What is meant by 'Transformers are particularly useful for tasks where ' in context of Applications of Tranformers?,Transformers are particularly useful for tasks where
+What is meant by 'Transformers have also been applied to non-language ' in context of Applications of Tranformers?,Transformers have also been applied to non-language
+What is meant by 'GPT models are a family of transformer-based neural ' in context of Generative Pre-Trained Transformers?,GPT models are a family of transformer-based neural
+What is meant by 'GPT models are pre-trained on large amounts of text ' in context of Generative Pre-Trained Transformers?,GPT models are pre-trained on large amounts of text
+What is meant by 'GPT models use a left-to-right autoregressive ' in context of Generative Pre-Trained Transformers?,GPT models use a left-to-right autoregressive
+"What is LLMs are not magic: They require crafted prompts, proper?","infrastructure, and optimization for reliable operation. Raw models alone are not enough."
+"What is Building applications: Real-world LLM apps combine models,?","retrieval systems (RAG), external tools, and pipelines."
+What is Practical engineering is crucial: Success depends on handling?,"scaling, failures, latency, and integration challenges."
+What is Prompt as control: A prompt directs what the LLM should focus on?,— it’s like writing a mini-program through text.
+"What is Good prompts = Better outputs: Speciﬁc, well-structured prompts?",yield much more reliable and useful results.
+"What is Programming by language: Unlike code, prompts shape behavior?",dynamically through careful wording.
+What is Chain-of-Thought (CoT): Ask the model to reason step-by-step?,instead of jumping to conclusions.
+What is Provide context and background: The more the model?,"¨knows¨about the situation, the better it can respond."
+What is Bad Prompt:?,"”Tell me about history.” — Too vague, invites random responses."
+What is Good Prompt:?,"”Summarize the history of naval warfare in 5 bullet points, focusing on major innovations between 1500 and 1900.”"
+"What is Prompt quality = Output quality: Clear prompts reduce errors,?","hallucinations, and vague responses."
+"What is Essential for serious apps: Chatbots, tutoring systems, search?",engines all depend on prompt quality.
+What is Open-Source:?,llama.cpp: Lightweight local LLM inference.
+What is Quantization Helps: Shrinks models by using lower precision?,(int8/fp16) without major accuracy loss.
+"What is Agentic AI: Models that plan, reason, act, and adapt across steps —?",not just single reply generation.
+What is How LLM Agents Work (Simpliﬁed Loop)?,"1 Receive goal from user. 2 Plan initial action or query. 3 Call necessary tools / generate intermediate outputs. 4 Observe results, analyze gaps. 5 Re-plan or ﬁnalize output."
+Can you explain meant by 'Creating a Deployment' in context of DEMO?,Creating a Deployment
+Can you explain meant by 'Cost-effectiveness - Pay only for what you use' in context of Benefits of using AWS Cloud?,Cost-effectiveness - Pay only for what you use
+How would you describe meant by 'docker stop web-server (or container id) ' in context of BASIC DOCKER COMMANDS?,docker stop web-server (or container id)
+What do you mean by Services?,- Handling atomic operations across multiple microservices (Distributed Transactions). - Maintaining data consistency during failures (Consistency Issues).
+Could you elaborate on meant by 'Creating a Deployment' in context of Demo?,Creating a Deployment
+Can you explain meant by 'Docker Swarm provides the cluster management and orchestration features of Docker Engine ' in context of DOCKER SWARM KEY CONCEPTS?,Docker Swarm provides the cluster management and orchestration features of Docker Engine
+Could you elaborate on meant by 'Develop your apps and supporting components using containers' in context of WHAT IS DOCKER?,Develop your apps and supporting components using containers
+Could you elaborate on meant by 'IAM encompasses controlling and tracking user identities and access in IT ' in context of Identity Access Management (IAM)?,IAM encompasses controlling and tracking user identities and access in IT
+How would you describe meant by 'Programming Constructs' in context of Monolithic Applications?,"Programming Constructs: Defined using language-specific constructs (e.g., Java packages)."
+Can you explain Another Demo!!!?,https://github.com/rav94/devops-in-practice
+How would you describe meant by 'Create new virtual networks.' in context of DOCKER OBJECTS CONT…?,Create new virtual networks.
+Can you describe how can we run containers at scale?,"Container orchestration • Container orchestration automates the deployment, management, scaling, and networking of containers. • Container orchestration can be used in any environment where you use containers. It can help you to deploy the same application across different environments without needing to redesign it."
+Can you explain meant by 'kubelet  ' in context of HIGH LEVEL ARCHITECTURE?,kubelet
+Can you explain meant by 'Create Deployment' in context of Deploying an App – kubectl Way?,Create Deployment
+Tell me about First step is to add a proxy layer between the storefront UI and the.,"monolithic application. At the start, the proxy routes all traffic to the  monolithic application. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+"Can you explain meant by 'A configuration management tool like Chef, ' in context of What Helm is NOT?","A configuration management tool like Chef,"
+Can you explain meant by 'Clustering Algorithms' in context of Learning Algorithms?,Clustering Algorithms
+Tell me about meant by 'Service' in context of FEW RESOURCE OBJECTS IN K8S.,Service
+How would you describe meant by 'Amazon SQS' in context of Common AWS Services?,Amazon SQS
+Can you explain meant by 'Root file system (rootfs) – Includes the typical directory structure we associate with Unix-' in context of INTERNALS?,Root file system (rootfs) – Includes the typical directory structure we associate with Unix-
+What do you mean by AWS Cloud?,"• AWS Cloud is a cloud computing platform that provides a wide range of services, including compute, storage, databases, security, networking, analytics, machine learning, and DevOps etc... • AWS Cloud is a highly scalable and reliable platform that can be used to build and deploy applications of all sizes and complexity. • AWS Cloud is also a cost-effective platform, as you only pay for the resources that you use."
+Can you explain meant by 'Modular Architecture' in context of Monolithic Applications?,"Modular Architecture: Follows a modular structure within a single unit, aligning with object-"
+What do you mean by meant by 'Linear output can be useful but will make it difficult to ' in context of Activation Function?,Linear output can be useful but will make it difficult to
+Can you explain meant by 'List resources of type - kubectl get resource_type ' in context of MANAGING CLUSTER RESOURCES?,List resources of type - kubectl get resource_type
+"Tell me about meant by 'MLP is a feedforward network, which means that ' in context of Multi-Layer Perceptron.","MLP is a feedforward network, which means that"
+Explain: DOES IT SOLVE,"MATRIX FROM HELL INCREASES THE COMPLEXITY CONTAINERS REDUCES THE COMPLEXITY IN SUMMARY A CONTAINER IS, • Just an isolated process running on the host machine. And a restricted process. • Will share OS and, where appropriate, bins/ libraries and limited to what resources it can access. • It exits when the process stops. “Containers are the next once-in-a-decade shift in IT infrastructure and process”"
+What do you mean by meant by 'Requires to track your deployment and modify YAML files (can be error prone)' in context of Deploying an App – kubectl Way – Pain Points?,Requires to track your deployment and modify YAML files (can be error prone)
+Could you elaborate on meant by 'GAN consists of two neural networks' in context of Generative Adversarial Neural Networks?,GAN consists of two neural networks: a generator
+How would you describe meant by 'If y >= t ➔ buy(1)' in context of Merchant?,If y >= t ➔ buy(1)
+Can you explain meant by 'Pulling Docker Image' in context of BASIC DOCKER COMMANDS?,Pulling Docker Image
+What do you mean by meant by 'Stacking multiple Nerons to for a layer' in context of Building Complete Neural Networks?,Stacking multiple Nerons to for a layer
+Could you elaborate on meant by 'Identify Replaceable Components' in context of Process Involved in Strangler fig?,Identify Replaceable Components: Start with parts of the system that
+How would you describe meant by 'defines one or more containers ' in context of E.g. docker container?,defines one or more containers
+Tell me about meant by 'running in a VM ' in context of E.g. docker container.,running in a VM
+Tell me about meant by 'Communication as a Service' in context of Many specialized variations of the three base cloud delivery models have.,Communication as a Service
+How would you describe meant by 'Innovation - 200+ fully featured services for a wide range of ' in context of Benefits of using AWS Cloud?,Innovation - 200+ fully featured services for a wide range of
+Could you elaborate on meant by 'SVM' in context of Types of Supervised Learning Models?,SVM
+Tell me about meant by 'Helm became a CNCF project in mid 2018' in context of Kubernetes applications.,Helm became a CNCF project in mid 2018
+"What do you mean by meant by 'Often, multiple classifiers need to be combined to ' in context of Ensemble Learning?","Often, multiple classifiers need to be combined to"
+Tell me about meant by 'Docker as a “CLI tool”' in context of WHAT IS DOCKER.,Docker as a “CLI tool”
+How would you describe meant by 'Nodes - A node is an instance of the Docker engine participating in the swarm. You can also ' in context of DOCKER SWARM KEY CONCEPTS?,Nodes - A node is an instance of the Docker engine participating in the swarm. You can also
+How would you describe meant by 'Nodes' in context of E.g. docker container?,Nodes:
+Tell me about meant by 'Print detailed description of a resource - kubectl describe resource_type ' in context of DEBUGGING CLUSTER RESOURCES.,Print detailed description of a resource - kubectl describe resource_type
+"Can you explain meant by 'Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to ' in context of Practices?","Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to"
+Tell me about meant by 'CNN uses convolutional layers to extract features ' in context of Convolutional Neural Networks.,CNN uses convolutional layers to extract features
+What do you mean by meant by 'docker pull nginx' in context of BASIC DOCKER COMMANDS?,docker pull nginx
+Can you explain meant by 'Decoupling' in context of Understanding Microservices?,Decoupling
+Can you explain meant by 'AWS Cloud is a cloud computing ' in context of What is AWS Cloud?,AWS Cloud is a cloud computing
+Could you elaborate on meant by 'It was donated to CNCF (Cloud Native Computing Foundation) who ' in context of What is Kubernetes?,It was donated to CNCF (Cloud Native Computing Foundation) who
+"Could you elaborate on meant by 'A configuration management tool like Chef, ' in context of What Helm is NOT?","A configuration management tool like Chef,"
+Can you explain meant by 'Security and compliance is a shared responsibility between AWS and the ' in context of Shared Responsibility Model in Public Cloud?,Security and compliance is a shared responsibility between AWS and the
+"Can you explain meant by 'So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear ' in context of WHAT IS DOCKER?","So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear"
+How would you describe meant by 'Reroute Traffic' in context of Process Involved in Strangler fig?,Reroute Traffic: Gradually reroute user traffic from the old system to
+Could you elaborate on meant by 'Storage' in context of Common AWS Services?,Storage
+Can you explain meant by 'GPT models use a left-to-right autoregressive ' in context of Generative Pre-Trained Transformers?,GPT models use a left-to-right autoregressive
+Explain: ARE THERE SOLUTIONS OTHER THAN DOCKER,• Docker – Container runtime + Tool for managing containers and images • Containerd – Container runtime only • Podman – Tool for managing containers and images DEEP DIVE INTO DOCKER INTERNALS DOCKER ARCHITECTURE
+"What do you mean by meant by 'Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you' in context of Algorithm?","Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you"
+Can you explain Client writes to G1?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+What do you mean by Client writes to G1?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+"Tell me about meant by 'Manager Node - To deploy your application to a swarm, you submit a service definition ' in context of DOCKER SWARM KEY CONCEPTS.","Manager Node - To deploy your application to a swarm, you submit a service definition"
+Can you explain meant by 'AWS IAM (Identity and Access Management) - service that allows you to ' in context of Accessing AWS Services?,AWS IAM (Identity and Access Management) - service that allows you to
+Could you elaborate on meant by 'IAM Policies - Documents that specify the permissions that are granted ' in context of Accessing AWS Services?,IAM Policies - Documents that specify the permissions that are granted
+Could you elaborate on meant by 'Reactive scaling' in context of Suited for applications with fixed or known peaks.?,Reactive scaling
+What do you mean by Partition tolerance means that the cluster must continue to work despite any?,number of communication breakdowns between nodes in the system.
+Tell me about meant by 'Identify Replaceable Components' in context of Process Involved in Strangler fig.,Identify Replaceable Components: Start with parts of the system that
+"How would you describe A monolithic application has three services: user service, cart service,?","and account service. The cart service depends on the user service,  and the application uses a monolithic relational database. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+Could you elaborate on meant by 'When a container is exited the state of the file system and its exit value is saved. ' in context of INTERNALS?,When a container is exited the state of the file system and its exit value is saved.
+Can you explain meant by 'kube-proxy' in context of HIGH LEVEL ARCHITECTURE?,kube-proxy
+Can you explain meant by 'Models based on QoS/SLA targets' in context of Based on?,Models based on QoS/SLA targets
+Could you elaborate on meant by 'Build Artifacts' in context of Monolithic Applications?,"Build Artifacts: Built as a single artifact, such as a Java JAR file."
+How would you describe Future Learning and Strategies?,- Explore strategies for detailed refactoring from monolithic to microservices. - Plan for ongoing education and adaptation of methods.
+Tell me about meant by 'Rules defined based on domain knowledge' in context of MYCIN.,Rules defined based on domain knowledge
+Tell me about meant by 'Create resource from file - kubectl create -f resource_file.yml ' in context of Managing cluster resources.,Create resource from file - kubectl create -f resource_file.yml
+Tell me about meant by 'Attach container to more than one virtual network (or none)' in context of DOCKER OBJECTS CONT….,Attach container to more than one virtual network (or none)
+Can you explain meant by 'Same workload can be deployed multiple times' in context of Here Comes Helm?,Same workload can be deployed multiple times
+Can you explain meant by 'If y > 5 ➔ buy' in context of It’s Decision-Making Time?,If y > 5 ➔ buy
+Could you elaborate on meant by 'Cloud Infrastructure as a Service (IaaS)' in context of The Business Case for the Cloud?,Cloud Infrastructure as a Service (IaaS)
+What do you mean by meant by 'helm install helm101/guestbook --name myguestbook --set service.type=NodePort – follow the ' in context of Install?,helm install helm101/guestbook --name myguestbook --set service.type=NodePort – follow the
+Could you elaborate on meant by 'Bob tells Alice to wait a bit and check out later' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?,Bob tells Alice to wait a bit and check out later
+Tell me about meant by 'Continuous Integration (CI) - Software development practice where developers regularly merge ' in context of Practices.,Continuous Integration (CI) - Software development practice where developers regularly merge
+What do you mean by meant by 'Upgrade ' in context of Demo – Guestbook Upgrades and Rollback?,Upgrade
+What do you mean by Kubernetes cluster creates a deployment using a variation of the?,“kubectl apply” command. 5 - The application is deployed on the cluster. • The cluster state is manually decided by kubectl commands or other
+Can you explain meant by 'Scale and Elasticity' in context of Features of Cloud?,Scale and Elasticity
+Tell me about meant by 'AI attempts to give machine the ' in context of Summary.,AI attempts to give machine the
+Tell me about meant by 'A Deployment provides declarative updates for Pods and ReplicaSets. You ' in context of Few resource objects in K8s.,A Deployment provides declarative updates for Pods and ReplicaSets. You
+What do you mean by meant by 'Based on pre-defined Rules' in context of MYCIN?,Based on pre-defined Rules
+"What do you mean by meant by 'MLP can be used for a variety of tasks, including ' in context of Applications of MLP?","MLP can be used for a variety of tasks, including"
+How would you describe meant by 'can run multiple pods ' in context of E.g. docker container?,can run multiple pods
+Can you explain meant by 'No Fixed Size' in context of Understanding Microservices?,No Fixed Size: Size varies based on language expressiveness and domain
+How would you describe meant by 'docker container run –it – Start a new container interactively' in context of BASIC DOCKER COMMANDS?,docker container run –it – Start a new container interactively
+Could you elaborate on meant by 'drag & drop installation ' in context of RUNNING THINGS LOCALLY?,drag & drop installation
+Tell me about meant by 'physical worker machines ' in context of E.g. docker container.,physical worker machines
+Could you elaborate on meant by 'Logistic Regression' in context of Types of Supervised Learning Models?,Logistic Regression
+How would you describe meant by 'GAN consists of two neural networks' in context of Generative Adversarial Neural Networks?,GAN consists of two neural networks: a generator
+What do you mean by meant by 'Update deployment e.g. update with a new image' in context of Deploying an App – kubectl Way – Pain Points?,Update deployment e.g. update with a new image
+How would you describe meant by 'Still need some level of infrastructure maintenance' in context of IaaS?,Still need some level of infrastructure maintenance
+How would you describe meant by 'Authorization' in context of Identity Access Management (IAM)?,Authorization: Defines access control levels and manages relationships between
+Could you elaborate on meant by 'Docker Desktop with built-in ' in context of RUNNING THINGS LOCALLY?,Docker Desktop with built-in
+How would you describe meant by 'RNN can also be used for time-series forecasting' in context of Applications of RNN?,RNN can also be used for time-series forecasting
+How would you describe Another way to state this—all working nodes in the distributed system return a?,"valid response for any request, without exception."
+What do you mean by meant by 'Java OpenNLP/Python NLTK (Natural language processing' in context of Popular Frameworks/Tools?,Java OpenNLP/Python NLTK (Natural language processing
+Could you elaborate on meant by 'windows and macOS ' in context of RUNNING THINGS LOCALLY?,windows and macOS
+"Can you explain meant by 'Getting a shell inside containers,' in context of BASIC DOCKER COMMANDS?","Getting a shell inside containers,"
+How would you describe meant by 'Upgrade ' in context of Demo – Guestbook Upgrades and Rollback?,Upgrade
+Could you elaborate on meant by 'Orchestrator acts as the decision maker and determines the next ' in context of Orchestrator is aware of all the steps required for transaction.?,Orchestrator acts as the decision maker and determines the next
+"What do you mean by Looks for that particular image locally in image cache, if its not found pulls it from the?",configured registry (image repository). Downloads the latest version by default  (nginx:latest) 2.
+Could you elaborate on meant by 'Inspired by ants finding shortest paths using ' in context of Ant Colony Optimization (ACO)?,Inspired by ants finding shortest paths using
+How would you describe meant by 'Depth First Search' in context of Search Algorithms?,Depth First Search
+What do you mean by meant by 'Rules' in context of Based on?,Rules
+"What do you mean by meant by 'Alice logs in her account,checks her Facebook wall but' in context of EVENTUAL CONSISTENCY – FACEBOOK EXAMPLE?","Alice logs in her account,checks her Facebook wall but"
+How would you describe meant by 'Helm packages all dependencies ' in context of Here Comes Helm?,Helm packages all dependencies
+Can you explain meant by 'Ingress - An Ingress is a Kubernetes object that sits in front of ' in context of Few resource objects in K8s?,Ingress - An Ingress is a Kubernetes object that sits in front of
+Can you explain meant by 'AWS Management Console' in context of Interacting with AWS Services?,AWS Management Console
+How would you describe How LLM Agents Work (Simpliﬁed Loop)?,"1 Receive goal from user. 2 Plan initial action or query. 3 Call necessary tools / generate intermediate outputs. 4 Observe results, analyze gaps. 5 Re-plan or ﬁnalize output."
+Tell me about meant by 'Depends on the events published by the microservices.' in context of Saga Choreography.,Depends on the events published by the microservices.
+Could you elaborate on meant by 'Creating a Deployment' in context of DEMO?,Creating a Deployment
+Could you elaborate on meant by 'Combined Modules' in context of Monolithic Applications?,"Combined Modules: Functional modules like UI, server logic, and database interactions are"
+What do you mean by A partition is a communications break within a distributed system—a lost or?,temporarily delayed connection between two nodes.
+Can you explain meant by 'Accessing AWS Services' in context of Agenda?,Accessing AWS Services
+Tell me about meant by 'helm install helm101/guestbook --name myguestbook --set service.type=NodePort – follow the ' in context of Install.,helm install helm101/guestbook --name myguestbook --set service.type=NodePort – follow the
+Explain: Do we understand how/why it makes predictions,Training Time Important for real-time or big data Fairness
+What do you mean by meant by 'Continuous Delivery (CD) - Software development practice where code changes are automatically ' in context of Practices?,Continuous Delivery (CD) - Software development practice where code changes are automatically
+How would you describe meant by 'Can create your own image or use images created and published in a registry by others.' in context of DOCKER OBJECTS?,Can create your own image or use images created and published in a registry by others.
+Could you elaborate on meant by 'Apache Keras (Python library of neural networks)' in context of Popular Frameworks/Tools?,Apache Keras (Python library of neural networks)
+How would you describe meant by 'Amazon CloudTrail' in context of Common AWS Services?,Amazon CloudTrail
+Tell me about meant by 'There is no external deployment/CI system with full access to the ' in context of The key points here are:.,There is no external deployment/CI system with full access to the
+Tell me about Not all models are created.,equal — and neither are the  ways we evaluate them.
+What do you mean by meant by 'Redis master deployment and service configuration' in context of Deploying an App – kubectl Way?,Redis master deployment and service configuration
+Can you explain meant by 'helm repo list' in context of Verify that helm101/guestbook is now in your repo?,helm repo list
+Could you elaborate on meant by 'At the end of the lesson students ' in context of Lesson Objectives?,At the end of the lesson students
+"Can you explain meant by 'Not suitable for complex, non-linear patterns' in context of Finds the best slope (m) and intercept (c) to?","Not suitable for complex, non-linear patterns"
+How would you describe meant by 'Domain-Driven Design' in context of Paving the Way for Microservices?,Domain-Driven Design: Emphasizing the importance of reflecting real-world complexities in our code
+How would you describe meant by 'Common AWS services' in context of Agenda?,Common AWS services
+"How would you describe meant by 'MLP is a feedforward network, which means that ' in context of Multi-Layer Perceptron?","MLP is a feedforward network, which means that"
+Can you explain meant by 'The saga participants (microservices) subscribe to the events and act ' in context of Saga Choreography?,The saga participants (microservices) subscribe to the events and act
+Tell me about meant by 'Single-Tiered Structure' in context of Monolithic Applications.,"Single-Tiered Structure: Built as a single, unified unit."
+Can you explain meant by 'Inspired by ants finding shortest paths using ' in context of Ant Colony Optimization (ACO)?,Inspired by ants finding shortest paths using
+How would you describe meant by 'Amazon Simple Storage Service (S3)' in context of Common AWS Services?,Amazon Simple Storage Service (S3)
+What do you mean by meant by 'Continuous Integration (CI) - Software development practice where developers regularly merge ' in context of Practices?,Continuous Integration (CI) - Software development practice where developers regularly merge
+Tell me about meant by 'Need of having multiple deployments (e.g. multiple Redis deployments) ' in context of Deploying an App – kubectl Way – Pain Points.,Need of having multiple deployments (e.g. multiple Redis deployments)
+What do you mean by meant by 'Replica Sets - Ensures desired number of pods exist by' in context of FEW RESOURCE OBJECTS IN K8S?,Replica Sets - Ensures desired number of pods exist by: scaling up or down and
+How would you describe Uses trial-and-error and reward maximization to?,improve decision-making over time. •
+Can you explain meant by 'Autonomy' in context of Understanding Microservices?,Autonomy
+Can you explain meant by 'docker pull nginx' in context of BASIC DOCKER COMMANDS?,docker pull nginx
+"Can you explain meant by 'You have NoSQL databases, which do not provide ACID transactions, and you need to update multiple tables ' in context of Use the saga orchestration pattern when:?","You have NoSQL databases, which do not provide ACID transactions, and you need to update multiple tables"
+Could you elaborate on Result of the attacker gaining direct access to IT resources that were implemented to?,be accessed by trusted consumer programs.
+How would you describe meant by 'Helm allows assigning workload release names at runtime' in context of Here Comes Helm?,Helm allows assigning workload release names at runtime
+"Could you elaborate on Essential for serious apps: Chatbots, tutoring systems, search?",engines all depend on prompt quality.
+Can you explain meant by 'W2?' in context of Merchant?,W2?
+What do you mean by meant by 'Edit resource on the server - kubectl edit resource_type ' in context of Managing cluster resources?,Edit resource on the server - kubectl edit resource_type
+"Tell me about meant by 'Design each microservice with a single responsibility for easier scaling, monitoring, and management.' in context of Provides traffic management, service discovery, load balancing, and failure recovery..","Design each microservice with a single responsibility for easier scaling, monitoring, and management."
+How would you describe meant by 'You can create an image using a Dockerfile or by committing a container’s ' in context of Copy on Write to improve the efficiency by?,You can create an image using a Dockerfile or by committing a container’s
+Can you explain meant by 'Continuous Delivery (CD) - Software development practice where code changes are automatically ' in context of Practices?,Continuous Delivery (CD) - Software development practice where code changes are automatically
+"Could you elaborate on meant by 'Ability to deploy your app as a container or an orchestrated service, in whatever environment which supports Docker ' in context of WHAT IS DOCKER?","Ability to deploy your app as a container or an orchestrated service, in whatever environment which supports Docker"
+Could you elaborate on meant by 'A different serviceType is needed in different environments (e.g. NodePort/LoadBalancer)  ' in context of Deploying an App – kubectl Way – Pain Points?,A different serviceType is needed in different environments (e.g. NodePort/LoadBalancer)
+How would you describe meant by 'Amazon Relational Database Service (RDS)' in context of Common AWS Services?,Amazon Relational Database Service (RDS)
+Could you elaborate on Once all interdependent components have been fully migrated to?,"microservices, it becomes feasible to refactor the code to eliminate  the Anti-Corruption Layer (ACL) components. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html"
+Tell me about meant by 'Execute command on the container - kubectl exec [-it] pod_name ' in context of Debugging cluster resources.,Execute command on the container - kubectl exec [-it] pod_name
+"Can you explain Multiple cloud service requests are sent, each of which is designed to consume?",excessive memory and processing resources.
+Could you elaborate on Enhanced Development and Maintenance?,"- Breaks application into smaller, manageable chunks. - Clear boundaries with defined APIs. - Quicker development, easier understanding and maintenance."
+Tell me about meant by 'Export/ Import it as a tarball' in context of Copy on Write to improve the efficiency by.,Export/ Import it as a tarball
+What do you mean by meant by 'No expertise of Kubernetes deployment needed as Helm hides Kubernetes domain complexities ' in context of Here Comes Helm?,No expertise of Kubernetes deployment needed as Helm hides Kubernetes domain complexities
+How would you describe meant by 'docker service create --replicas 1 --name helloworld alpine ping docker.com' in context of DOCKER SWARM KEY CONCEPTS?,docker service create --replicas 1 --name helloworld alpine ping docker.com
+Can you explain meant by 'Deployment' in context of Few resource objects in K8s?,Deployment
+Could you elaborate on meant by 'Transformers have been used for a variety of natural ' in context of Applications of Tranformers?,Transformers have been used for a variety of natural
+Explain: Questions,"Lecture 02 - Part 2 (Upgraded) LLM Development Toolkit April 21, 2025 23 / 23"
+Can you explain meant by 'Print detailed description of a resource - kubectl describe ' in context of Debugging cluster resources?,Print detailed description of a resource - kubectl describe
+"Could you elaborate on meant by 'Machine learning is a subfield of artificial intelligence, ' in context of What is Machine Learning?","Machine learning is a subfield of artificial intelligence,"
+How would you describe meant by 'Ease of Deployment' in context of Diagram of a monolithic ecommerce application with several modules using a combination of?,Ease of Deployment: Deployment involves simply copying the packaged application to a
+Could you elaborate on meant by 'Clustering Algorithms' in context of Learning Algorithms?,Clustering Algorithms
+Could you elaborate on Traditional deployment without GitOps:?,"1 - A developer commits source code for the application. 2 - A CI system builds the application and may also perform additional  actions such as unit tests, security scans, static checks, etc. 3 - The container image is stored in a Container registry. 4 - The CI platform (or other external system) with direct access to the"
+What do you mean by meant by 'Project that was created by Google as an open source container orchestration ' in context of WHAT IS KUBERNETES?,Project that was created by Google as an open source container orchestration
+"Could you elaborate on meant by 'That read-write layer, plus the information about its Parent Image and some additional ' in context of INTERNALS?","That read-write layer, plus the information about its Parent Image and some additional"
+What do you mean by Quantization Helps: Shrinks models by using lower precision?,(int8/fp16) without major accuracy loss.
+Could you elaborate on meant by 'Amazon CloudFront' in context of Common AWS Services?,Amazon CloudFront
+Tell me about meant by 'Amazon Route 53' in context of Common AWS Services.,Amazon Route 53
+Can you explain Inconsistent system?,https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/
+Can you explain meant by 'When there are small number of participants (microservices) involved.' in context of Use the saga choreography pattern when:?,When there are small number of participants (microservices) involved.
+Tell me about meant by 'Refer the literature!!!' in context of Algorithm.,Refer the literature!!!
+What do you mean by meant by 'Private cloud' in context of Cloud service/ delivery models variations?,Private cloud
+How would you describe meant by 'Signal Flow is uni-directional' in context of Feed Forward Networks?,Signal Flow is uni-directional
+Could you elaborate on meant by 'No signal loops.' in context of Feed Forward Networks?,No signal loops.
+Can you explain meant by 'Is it better than the Current Phone. (𝑥𝑏)' in context of Mathematical Intuition?,Is it better than the Current Phone. (𝑥𝑏)
+Can you explain meant by 'Most used type of ANN' in context of Feed Forward Networks?,Most used type of ANN
+Tell me about meant by 'Traffic Management with Ingress' in context of Developing and deploying Microservices with.,Traffic Management with Ingress:
+What do you mean by Software as a Service (SaaS)?,"⚫ Service provider offers specific applications offered as a “product” ⚫ hosted by the provider ⚫ Consumed by the customer ⚫ May be customised by the customer ⚫ Information stored by the provider ⚫ No necessity to purchase any hardware ⚫ The SaaS vendor ⚫ Operates ⚫ Maintains and ⚫ Supports all the software, hardware, and communications technology ⚫ The price is on a per-use basis and involves no upfront capital costs."
+Could you elaborate on meant by 'Application Integration' in context of Common AWS Services?,Application Integration
+Could you elaborate on meant by 'Where are your datacenters located?' in context of Know what you want first?,Where are your datacenters located?
+Tell me about meant by 'Project that was created by Google as an open source container orchestration ' in context of WHAT IS KUBERNETES.,Project that was created by Google as an open source container orchestration
+What do you mean by meant by 'Introduction to AWS cloud platform and its benefits' in context of Agenda?,Introduction to AWS cloud platform and its benefits
+Tell me about meant by 'Docker Storage Drivers - https' in context of REFERENCES.,Docker Storage Drivers - https://docs.docker.com/storage/storagedriver/
+How would you describe In cloud the availability of cloud services can be a responsibility that is shared?,by the cloud provider and the cloud carrier. The availability of a cloud-based  solution that extends to cloud service consumers is further shared by the  cloud consumer.
+What do you mean by meant by 'Avoids Using Two-Phase Commit Protocols for Transaction Management.' in context of Saga Pattern - A saga consists of a sequence of local transactions. Each local transaction in a saga?,Avoids Using Two-Phase Commit Protocols for Transaction Management.
+Can you explain meant by 'Runnable instance of an image.' in context of DOCKER OBJECTS?,Runnable instance of an image.
+Can you explain meant by 'Where are your datacenters located?' in context of Know what you want first?,Where are your datacenters located?
+Can you explain A Genetic Algorithm (GA) is a search and?,optimization method inspired by how living  things evolve over time through natural  selection.  •
+"How would you describe meant by 'Docker mounts the rootfs and instead of changing the file system to read-write mode, ' in context of INTERNALS?","Docker mounts the rootfs and instead of changing the file system to read-write mode,"
+How would you describe meant by 'Independent Data Management' in context of Diagram of an ecommerce application with functional areas implemented by microservices.?,Independent Data Management: Each service manages its data
+What do you mean by Shares IT resources in the same cloud environment as the cloud consumer and attempts?,to exploit legitimate credentials to target cloud providers and the cloud tenants.
+Tell me about meant by 'kube-proxy' in context of HIGH LEVEL ARCHITECTURE.,kube-proxy
+How would you describe meant by 'Pulling Docker Image' in context of BASIC DOCKER COMMANDS?,Pulling Docker Image
+"Could you elaborate on meant by 'Can connect it to one or more networks, attach storage to it, or even create a new image ' in context of DOCKER OBJECTS?","Can connect it to one or more networks, attach storage to it, or even create a new image"
+"Can you explain Programming by language: Unlike code, prompts shape behavior?",dynamically through careful wording.
+Can you explain X (Twitter)?,https://www.linkedin.com/in/ravindufernando/
+"What do you mean by meant by 'Use strong passwords, enable password policy and enable multi-' in context of Best Practices for managing AWS Accounts?","Use strong passwords, enable password policy and enable multi-"
+Could you elaborate on meant by 'VMs vs Containers' in context of AGENDA?,VMs vs Containers
+How would you describe meant by 'drag & drop installation ' in context of RUNNING THINGS LOCALLY?,drag & drop installation
+Details on: Questions,"Lecture 02 - Part 2 (Upgraded) LLM Development Toolkit April 21, 2025 23 / 23"
+"Could you elaborate on meant by 'Not suitable for complex, non-linear patterns' in context of Finds the best slope (m) and intercept (c) to?","Not suitable for complex, non-linear patterns"
+"Could you elaborate on meant by 'Implement rolling updates for gradual change rollout and use tools like Argo Rollouts for more reliable rollback and ' in context of Provides traffic management, service discovery, load balancing, and failure recovery.?",Implement rolling updates for gradual change rollout and use tools like Argo Rollouts for more reliable rollback and
+"Tell me about meant by 'The data store doesn't provide 2PC to provide ACID transactions, and implementing 2PC within the application ' in context of Use the saga orchestration pattern when:.","The data store doesn't provide 2PC to provide ACID transactions, and implementing 2PC within the application"
+What do you mean by meant by 'Configuration Management – CSP maintains the configuration of its infrastructure ' in context of Control types in Shared Responsibility Model?,Configuration Management – CSP maintains the configuration of its infrastructure
+How would you describe meant by 'can run multiple pods ' in context of Eg docker container?,can run multiple pods
+"Could you elaborate on meant by 'Manager Node - To deploy your application to a swarm, you submit a service definition ' in context of DOCKER SWARM KEY CONCEPTS?","Manager Node - To deploy your application to a swarm, you submit a service definition"
+Tell me about meant by 'Helm tracks deployment making it easy to update and rollback' in context of Here Comes Helm.,Helm tracks deployment making it easy to update and rollback
+Could you elaborate on Prompt as control: A prompt directs what the LLM should focus on?,— it’s like writing a mini-program through text.
+Can you explain meant by 'Variability in Responsibility' in context of Responsibility Model and its general application in cloud operations.?,Variability in Responsibility: Customer responsibility changes based on:
+What do you mean by meant by 'Emergence from Real-World Use' in context of Microservices: A Natural Progression?,Emergence from Real-World Use: Microservices weren’t pre-planned
+Tell me about meant by 'Nodes' in context of Eg docker container.,Nodes:
+Could you elaborate on meant by 'Verify that your guestbook chart is installed' in context of Install?,Verify that your guestbook chart is installed
