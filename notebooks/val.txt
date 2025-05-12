@@ -1,0 +1,99 @@
+Question: DOES IT SOLVE? Answer: MATRIX FROM HELL INCREASES THE COMPLEXITY CONTAINERS REDUCES THE COMPLEXITY IN SUMMARY A CONTAINER IS, • Just an isolated process running on the host machine. And a restricted process. • Will share OS and, where appropriate, bins/ libraries and limited to what resources it can access. • It exits when the process stops. “Containers are the next once-in-a-decade shift in IT infrastructure and process”<|endoftext|>
+Question: What is meant by 'Interacting with AWS Services' in context of Agenda? Answer: Interacting with AWS Services<|endoftext|>
+Question: What is meant by 'Reliability - Backed by reliable AWS network with proven track ' in context of Benefits of using AWS Cloud?? Answer: Reliability - Backed by reliable AWS network with proven track<|endoftext|>
+Question: What is meant by 'Cost-effectiveness - Pay only for what you use' in context of Benefits of using AWS Cloud?? Answer: Cost-effectiveness - Pay only for what you use<|endoftext|>
+Question: What is meant by 'Software Development Kits' in context of Interacting with AWS Services? Answer: Software Development Kits<|endoftext|>
+Question: What is meant by 'Machine Learning' in context of Common AWS Services? Answer: Machine Learning<|endoftext|>
+Question: What is meant by 'Amazon SNS' in context of Common AWS Services? Answer: Amazon SNS<|endoftext|>
+Question: What is Consistent system? Answer: https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/<|endoftext|>
+Question: What is Client reads from G2? Answer: https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/<|endoftext|>
+Question: What is meant by 'This suggests both AP & CP systems can offer a degree' in context of CONSISTENCY OR AVAILABILITY? Answer: This suggests both AP & CP systems can offer a degree<|endoftext|>
+Question: What is meant by 'https' in context of CAP Theorem." Computer 45.2 (2012):30-36? Answer: https://mwhittaker.github.io/blog/an_illustrated_p<|endoftext|>
+Question: What is meant by 'Location-independent (if you have enough bandwidth)' in context of Cloud Computing Principles? Answer: Location-independent (if you have enough bandwidth)<|endoftext|>
+Question: What is meant by 'Request-driven' in context of Cloud Computing Principles? Answer: Request-driven<|endoftext|>
+Question: What is meant by 'Clouds have multi-tenancy' in context of Cloud Computing Principles? Answer: Clouds have multi-tenancy<|endoftext|>
+Question: What is meant by 'Customer rents computing resources rather than buying and installing them' in context of Infrastructure as a Service (IaaS)? Answer: Customer rents computing resources rather than buying and installing them<|endoftext|>
+Question: What is meant by 'Storage as a Service' in context of Many specialized variations of the three base cloud delivery models have? Answer: Storage as a Service<|endoftext|>
+Question: What is meant by 'So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear ' in context of WHAT IS DOCKER?? Answer: So what’s Docker? – In 2024, Docker means lot’s of things, let’s just clear<|endoftext|>
+Question: What is meant by 'Docker as a “Company”' in context of WHAT IS DOCKER?? Answer: Docker as a “Company”<|endoftext|>
+Question: What is meant by 'It provides tooling and a platform to manage lifecycle of your containers,' in context of WHAT IS DOCKER?? Answer: It provides tooling and a platform to manage lifecycle of your containers,<|endoftext|>
+Question: What is meant by 'Listing, removing containers and images' in context of BASIC DOCKER COMMANDS? Answer: Listing, removing containers and images<|endoftext|>
+Question: What is meant by 'docker container ls | docker ps ' in context of BASIC DOCKER COMMANDS? Answer: docker container ls | docker ps<|endoftext|>
+Question: What is meant by 'Each instruction in Dockerfile creates a layer in the image, only those layers which ' in context of DOCKER OBJECTS? Answer: Each instruction in Dockerfile creates a layer in the image, only those layers which<|endoftext|>
+Question: What is meant by 'Can connect it to one or more networks, attach storage to it, or even create a new image ' in context of DOCKER OBJECTS? Answer: Can connect it to one or more networks, attach storage to it, or even create a new image<|endoftext|>
+Question: What is meant by 'When you run a container, Docker fetches the image and its Parent Image, and repeats ' in context of INTERNALS? Answer: When you run a container, Docker fetches the image and its Parent Image, and repeats<|endoftext|>
+Question: What is meant by 'Docker deamon has a built in DNS, which consider container name as equivalent hostname of ' in context of DOCKER OBJECTS CONT…? Answer: Docker deamon has a built in DNS, which consider container name as equivalent hostname of<|endoftext|>
+Question: What is meant by 'Volumes – Make a location outside of container UFS.' in context of PERSISTENCE DATA? Answer: Volumes – Make a location outside of container UFS.<|endoftext|>
+Question: What is meant by 'Manager Node - To deploy your application to a swarm, you submit a service definition ' in context of DOCKER SWARM KEY CONCEPTS? Answer: Manager Node - To deploy your application to a swarm, you submit a service definition<|endoftext|>
+Question: What is meant by 'Master [Control Plane] ' in context of HIGH LEVEL ARCHITECTURE? Answer: Master [Control Plane]<|endoftext|>
+Question: What is meant by 'coordinates all activities in the cluster ' in context of HIGH LEVEL ARCHITECTURE? Answer: coordinates all activities in the cluster<|endoftext|>
+Question: What is meant by 'actual workers ' in context of HIGH LEVEL ARCHITECTURE? Answer: actual workers<|endoftext|>
+Question: What is meant by 'kube-proxy' in context of HIGH LEVEL ARCHITECTURE? Answer: kube-proxy<|endoftext|>
+Question: What is meant by 'Deployment' in context of FEW RESOURCE OBJECTS IN K8S? Answer: Deployment<|endoftext|>
+Question: What is meant by 'Creating a ReplicaSet' in context of DEMO? Answer: Creating a ReplicaSet<|endoftext|>
+Question: What is meant by 'Creating a Service and exposing it' in context of DEMO? Answer: Creating a Service and exposing it<|endoftext|>
+Question: What is meant by 'Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to ' in context of Practices? Answer: Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to<|endoftext|>
+Question: What is meant by 'Embracing Virtualization' in context of Paving the Way for Microservices? Answer: Embracing Virtualization: Utilizing on-demand provisioning and resizing of resources for greater<|endoftext|>
+Question: What is meant by 'Responding to Change' in context of Microservices: A Natural Progression? Answer: Responding to Change: Offering the agility and flexibility to adapt to<|endoftext|>
+Question: What is meant by 'Single-Tiered Structure' in context of Monolithic Applications? Answer: Single-Tiered Structure: Built as a single, unified unit.<|endoftext|>
+Question: What is meant by 'Technological Rigidity' in context of Diagram of a monolithic ecommerce application with several modules using a combination of? Answer: Technological Rigidity: Adopting new frameworks or languages is costly and time-consuming,<|endoftext|>
+Question: What is meant by 'Team Alignment' in context of Understanding Microservices? Answer: Team Alignment: Ideally sized to be managed by a small team.<|endoftext|>
+Question: What is meant by 'Independent Data Management' in context of Diagram of an ecommerce application with functional areas implemented by microservices.? Answer: Independent Data Management: Each service manages its data<|endoftext|>
+Question: What is Team Autonomy and Efficiency? Answer: - Independent development of services by teams. - Full lifecycle ownership of services. - Flexibility to use different programming languages (Polyglot Development).<|endoftext|>
+Question: What is Complexity in Distributed Systems? Answer: - Necessity of choosing and implementing inter-service communication mechanisms. - Managing partial failures and service unavailability.<|endoftext|>
+Question: What is meant by 'Service/ Delivery Models' in context of Key aspects of Shared Responsibility Model? Answer: Service/ Delivery Models: Responsibilities vary depending on<|endoftext|>
+Question: What is meant by 'Horizontal scaling' in context of Scalability in Cloud? Answer: Horizontal scaling<|endoftext|>
+Question: What is Able to intercept and forward the network traffic that flows within a cloud. Then to? Answer: maliciously use and augment the data.<|endoftext|>
+Question: What is Exploits vulnerabilities in the virtualization platform to jeopardize its? Answer: confidentiality, integrity, and/or availability.<|endoftext|>
+Question: What is meant by 'Breadth-First Search' in context of Search Algorithms? Answer: Breadth-First Search<|endoftext|>
+Question: What is meant by 'Evolutionary Algorithms are a family of nature-inspired ' in context of Evolutionary Algorithms? Answer: Evolutionary Algorithms are a family of nature-inspired<|endoftext|>
+Question: What is Initialize a population? Answer: of potential solutions randomly.<|endoftext|>
+Question: What is meant by 'Supervision of what?' in context of Supervised Learning Algorithms? Answer: Supervision of what?<|endoftext|>
+Question: What is meant by 'DT' in context of Types of Supervised Learning Models? Answer: DT<|endoftext|>
+Question: What is meant by 'Classification' in context of Types of Supervised Learning Models? Answer: Classification<|endoftext|>
+Question: What is meant by 'Predicting a ' in context of Types of Supervised Learning Models? Answer: Predicting a<|endoftext|>
+Question: What is meant by 'Salary estimation' in context of Finds the best slope (m) and intercept (c) to? Answer: Salary estimation<|endoftext|>
+Question: What is meant by 'DBSCAN' in context of Learning Algorithms? Answer: DBSCAN<|endoftext|>
+Question: What is meant by 'If there’s an algorithmic way instead of ML, use it!!! (ML is' in context of Algorithm? Answer: If there’s an algorithmic way instead of ML, use it!!! (ML is<|endoftext|>
+Question: What is meant by 'Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you' in context of Algorithm? Answer: Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you<|endoftext|>
+Question: What is meant by 'No algorithm will be perfect! (There will be an error. The ' in context of Algorithm? Answer: No algorithm will be perfect! (There will be an error. The<|endoftext|>
+Question: What is meant by 'Edit resource on the server - kubectl edit resource_type ' in context of Managing cluster resources? Answer: Edit resource on the server - kubectl edit resource_type<|endoftext|>
+Question: What is meant by 'Replica Sets - Ensures desired number of pods exist by' in context of Few resource objects in K8s? Answer: Replica Sets - Ensures desired number of pods exist by: scaling up or<|endoftext|>
+Question: What is meant by 'Deployment' in context of Few resource objects in K8s? Answer: Deployment<|endoftext|>
+Question: What is meant by 'A Deployment provides declarative updates for Pods and ReplicaSets. You ' in context of Few resource objects in K8s? Answer: A Deployment provides declarative updates for Pods and ReplicaSets. You<|endoftext|>
+Question: What is meant by 'A method for exposing a network application that is running as one or ' in context of Deployment Controller changes the actual state to the desired state at a? Answer: A method for exposing a network application that is running as one or<|endoftext|>
+Question: What is meant by 'Ingress - An Ingress is a Kubernetes object that sits in front of ' in context of Few resource objects in K8s? Answer: Ingress - An Ingress is a Kubernetes object that sits in front of<|endoftext|>
+Question: What is meant by 'Defining a Pod' in context of Demo? Answer: Defining a Pod<|endoftext|>
+Question: What is meant by 'Think of Helm like apt/yum/homebrew for Kubernetes' in context of Kubernetes applications? Answer: Think of Helm like apt/yum/homebrew for Kubernetes<|endoftext|>
+Question: What is meant by 'helm upgrade myguestbook helm101/guestbook' in context of Demo – Guestbook Upgrades and Rollback? Answer: helm upgrade myguestbook helm101/guestbook<|endoftext|>
+Question: What is Once all interdependent components have been fully migrated to? Answer: microservices, it becomes feasible to refactor the code to eliminate the Anti-Corruption Layer (ACL) components. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html<|endoftext|>
+Question: What is meant by 'A central controlling process that manages the participant transactions might become a single point of ' in context of Use the saga choreography pattern when:? Answer: A central controlling process that manages the participant transactions might become a single point of<|endoftext|>
+Question: What is meant by 'The saga participants are independent services and need to be loosely coupled.' in context of Use the saga choreography pattern when:? Answer: The saga participants are independent services and need to be loosely coupled.<|endoftext|>
+Question: What is meant by 'Monitoring and Debugging' in context of Provides traffic management, service discovery, load balancing, and failure recovery.? Answer: Monitoring and Debugging:<|endoftext|>
+Question: What is meant by 'You go on shopping for a new Laptop. What are the ' in context of Mathematical Intuition? Answer: You go on shopping for a new Laptop. What are the<|endoftext|>
+Question: What is meant by 'W2?' in context of Merchant? Answer: W2?<|endoftext|>
+Question: What is meant by 'Its easier to compute with vectors' in context of Generalizing the Decision Statement? Answer: Its easier to compute with vectors<|endoftext|>
+Question: What is meant by 'Corresponding weights' in context of A Perceptron? Answer: Corresponding weights<|endoftext|>
+Question: What is meant by 'MLP can be used for a variety of tasks, including ' in context of Applications of MLP? Answer: MLP can be used for a variety of tasks, including<|endoftext|>
+Question: What is meant by 'GAN has been used for a variety of generative tasks, ' in context of Applications of GAN? Answer: GAN has been used for a variety of generative tasks,<|endoftext|>
+Question: What is Prompt quality = Output quality: Clear prompts reduce errors,? Answer: hallucinations, and vague responses.<|endoftext|>
+Question: What is Open-Source:? Answer: llama.cpp: Lightweight local LLM inference.<|endoftext|>
+Question: Can you explain meant by 'Creating a Deployment' in context of DEMO? Answer: Creating a Deployment<|endoftext|>
+Question: Can you explain meant by 'Cost-effectiveness - Pay only for what you use' in context of Benefits of using AWS Cloud? Answer: Cost-effectiveness - Pay only for what you use<|endoftext|>
+Question: Could you elaborate on meant by 'IAM encompasses controlling and tracking user identities and access in IT ' in context of Identity Access Management (IAM)? Answer: IAM encompasses controlling and tracking user identities and access in IT<|endoftext|>
+Question: What do you mean by meant by 'Stacking multiple Nerons to for a layer' in context of Building Complete Neural Networks? Answer: Stacking multiple Nerons to for a layer<|endoftext|>
+Question: Can you explain meant by 'Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to ' in context of Practices? Answer: Cloud Infrastructure - Cloud provides more flexibility, scalability and toolsets for organizations to<|endoftext|>
+Question: Can you explain meant by 'Decoupling' in context of Understanding Microservices? Answer: Decoupling<|endoftext|>
+Question: What do you mean by meant by 'Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you' in context of Algorithm? Answer: Be mindful of ‘external factors’ (e.g. seasonal effects, RL if you<|endoftext|>
+Question: How would you describe A monolithic application has three services: user service, cart service,? Answer: and account service. The cart service depends on the user service, and the application uses a monolithic relational database. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/strangler-fig.html<|endoftext|>
+Question: What do you mean by Kubernetes cluster creates a deployment using a variation of the? Answer: “kubectl apply” command. 5 - The application is deployed on the cluster. • The cluster state is manually decided by kubectl commands or other<|endoftext|>
+Question: What do you mean by meant by 'Based on pre-defined Rules' in context of MYCIN? Answer: Based on pre-defined Rules<|endoftext|>
+Question: How would you describe meant by 'can run multiple pods ' in context of E.g. docker container? Answer: can run multiple pods<|endoftext|>
+Question: How would you describe meant by 'Authorization' in context of Identity Access Management (IAM)? Answer: Authorization: Defines access control levels and manages relationships between<|endoftext|>
+Question: What do you mean by meant by 'Java OpenNLP/Python NLTK (Natural language processing' in context of Popular Frameworks/Tools? Answer: Java OpenNLP/Python NLTK (Natural language processing<|endoftext|>
+Question: How would you describe meant by 'Can create your own image or use images created and published in a registry by others.' in context of DOCKER OBJECTS? Answer: Can create your own image or use images created and published in a registry by others.<|endoftext|>
+Question: Tell me about meant by 'Execute command on the container - kubectl exec [-it] pod_name ' in context of Debugging cluster resources. Answer: Execute command on the container - kubectl exec [-it] pod_name<|endoftext|>
+Question: How would you describe meant by 'Signal Flow is uni-directional' in context of Feed Forward Networks? Answer: Signal Flow is uni-directional<|endoftext|>
+Question: How would you describe meant by 'Pulling Docker Image' in context of BASIC DOCKER COMMANDS? Answer: Pulling Docker Image<|endoftext|>
+Question: Can you explain Programming by language: Unlike code, prompts shape behavior? Answer: dynamically through careful wording.<|endoftext|>
+Question: How would you describe meant by 'can run multiple pods ' in context of Eg docker container? Answer: can run multiple pods<|endoftext|>
